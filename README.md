@@ -21,6 +21,7 @@ As this is a template, only the basics are installed:
 - Styled-Components: v5.3.9
 - Jest: v29.5.0
 - React-Testing-Library: v14.0.0
+- Typescript: v5.0.2
 
 ## Getting started
 ---
