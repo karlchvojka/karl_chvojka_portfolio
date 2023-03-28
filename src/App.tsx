@@ -2,10 +2,11 @@
 import React from 'react'
 
 // Library Imports
-import Header from 'modules/Header/Header'
-import Footer from 'modules/Footer/Footer'
+import { Routes, Route } from 'react-router-dom'
 
 // Component Imports
+import Header from 'modules/Header/Header'
+import Footer from 'modules/Footer/Footer'
 import ColumnLayout from 'layouts/ColumnLayout/ColumnLayout'
 
 // CSS Imports
@@ -17,9 +18,9 @@ const App: React.FC = () => {
     <StyledApp id='container'>
       <GlobalStyle />
       <Header id='headerWrap' />
-      <ColumnLayout 
-        headlineText='ReactJS Basic Template 2023'
-      />
+      <Routes>
+        <Route path='/' element={<ColumnLayout headlineText='Karl Chvojkas Portfolio' />} />
+      </Routes>
       <Footer />
     </StyledApp>
   )
