@@ -4,12 +4,18 @@ import React from 'react'
 // CSS Imports
 import StyledColumnLayout from './StyledColumnLayout'
 
+// Type Declarations
+interface ColumnLayoutProps {
+  headlineText: string
+}
+
 /**
  * This the ColumnLayout component.
  * 
  * Its purpose is just to give an example of a single column layout.
+ * @param headlineText - Text to display inside H1
  */
-const ColumnLayout = ({ headlineText }) => {
+const ColumnLayout = ({ headlineText }: ColumnLayoutProps) => {
   return (
     <StyledColumnLayout>
       <section id='contentWrap'>

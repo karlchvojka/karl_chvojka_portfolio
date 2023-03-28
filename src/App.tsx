@@ -12,7 +12,7 @@ import ColumnLayout from 'layouts/ColumnLayout/ColumnLayout'
 import GlobalStyle from 'src/globalConfig/GlobalStyles'
 import StyledApp from './StyledApp'
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <StyledApp id='container'>
       <GlobalStyle />

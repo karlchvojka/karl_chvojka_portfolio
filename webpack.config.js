@@ -11,7 +11,7 @@ module.exports = {
    * Configured entry for the index.js file.
    */
   entry: {
-    main: path.resolve(__dirname, './index.js'),
+    main: path.resolve(__dirname, './index.tsx'),
   },
 
   /**
@@ -54,7 +54,7 @@ module.exports = {
       modules: path.resolve(__dirname, './src/components/modules')
     },
 
-    extensions: ['.js', '.jsx', '.json'],
+    extensions: ['*', '.js', '.jsx', '.ts', '.tsx', '.json'],
   },
   module: {
 
@@ -82,6 +82,11 @@ module.exports = {
             loader: "html-loader"
           }
         ]
+      },
+      // `ts` and `tsx` files are parsed using `ts-loader`
+      { 
+        test: /\.(ts|tsx)$/, 
+        loader: "ts-loader" 
       }
     ],
   },
