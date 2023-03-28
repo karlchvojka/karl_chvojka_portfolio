@@ -1,7 +1,7 @@
 {
-  "name": "react_template_2022",
+  "name": "karl_chvojkas_portfolio",
   "version": "0.1.0",
-  "description": "ReactJS Template - ReactJS, Babel, ESLINT, Webpack, Styled-Components",
+  "description": "ReactJS SPA Portfolio website - ReactJS, Babel, ESLINT, Webpack, Styled-Components",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",

@@ -1,5 +1,6 @@
-# ReactJS + Typescript
-A simple ReactJS + Typescript boilerplate
+# Portfolio
+Karl Chvojka Portfolio Website:
+A basic SPA to display projects and websites and etc.
 
 ## Requirements
 ---
