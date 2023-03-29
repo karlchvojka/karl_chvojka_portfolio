@@ -10,6 +10,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - React Router Support and basic routing
+- Home component (./src/components/pages/Home)
+- Added pages directory (./src/components/pages/Home) to aliases
+  
 ### Changed
 
 ### Packages Installed:

@@ -6,6 +6,7 @@ import { Routes, Route } from 'react-router-dom'
 
 // Component Imports
 import Header from 'modules/Header/Header'
+import Home from 'pages/Home/Home'
 import Footer from 'modules/Footer/Footer'
 import ColumnLayout from 'layouts/ColumnLayout/ColumnLayout'
 
@@ -19,7 +20,7 @@ const App: React.FC = () => {
       <GlobalStyle />
       <Header id='headerWrap' />
       <Routes>
-        <Route path='/' element={<ColumnLayout headlineText='Karl Chvojkas Portfolio' />} />
+        <Route path='/' element={<Home />} />
       </Routes>
       <Footer />
     </StyledApp>
