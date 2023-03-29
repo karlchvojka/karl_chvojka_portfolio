@@ -9,7 +9,6 @@ const StyledHome = styled.section`
 /* MOBILE FIRST DEFAULT STYLES */
 
   border-bottom: 1px solid ${defaultColors.cyberBlue};
-  padding: 10px 14px;
   max-width: 100%;
 
   p {
