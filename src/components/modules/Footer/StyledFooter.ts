@@ -11,6 +11,7 @@ const StyledFooter = styled.footer`
   background-color: ${defaultColors.darkGrey};
   border-top: 1px solid ${defaultColors.cyberBlue};
   bottom: 0;
+  height: 30px;
   left: 0;
   padding: 10px 14px;
   position: fixed;

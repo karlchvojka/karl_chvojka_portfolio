@@ -5,9 +5,13 @@ import media from 'globalConfig/mobile'
 // Variable Imports
 import { defaultColors } from 'globalConfig/colors'
 
+// Asset Imports
+import hexarepeat from 'globalAssets/images/bgrep.png'
+
 const StyledHome = styled.section`
 /* MOBILE FIRST DEFAULT STYLES */
-
+  background-image: url(${hexarepeat});
+  background-repeat: repeat;
   border-bottom: 1px solid ${defaultColors.cyberBlue};
   max-width: 100%;
 
