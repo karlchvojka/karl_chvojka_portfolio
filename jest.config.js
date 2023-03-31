@@ -10,7 +10,8 @@ const config = {
     'globalAssets/(.*)': '<rootDir>/src/globalAssets/$1',
     'globalConfig/(.*)': '<rootDir>/src/globalConfig/$1',
     'layouts/(.*)': '<rootDir>/src/components/layouts/$1',
-    'modules/(.*)':  '<rootDir>/src/components/modules/$1'
+    'modules/(.*)':  '<rootDir>/src/components/modules/$1',
+    'pages/(.*)': '<rootDir/src/components/pages/$1'
   },
   setupFilesAfterEnv: ['<rootDir>/setup-jest.js'],
   testEnvironment: 'jsdom',

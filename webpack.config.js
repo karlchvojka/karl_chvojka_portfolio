@@ -51,7 +51,8 @@ module.exports = {
       globalAssets: path.resolve(__dirname, './src/globalAssets'),
       globalConfig: path.resolve(__dirname, './src/globalConfig'),
       layouts: path.resolve(__dirname, './src/components/layouts'),
-      modules: path.resolve(__dirname, './src/components/modules')
+      modules: path.resolve(__dirname, './src/components/modules'),
+      pages: path.resolve(__dirname, './src/components/pages')
     },
 
     extensions: ['*', '.js', '.jsx', '.ts', '.tsx', '.json'],
@@ -68,7 +69,7 @@ module.exports = {
         use: 'babel-loader',
       },
       {
-        test: /\.(png|jpe?g|gif)$/i,
+        test: /\.(png|jp(e*)g|svg|gif)$/i,
         type: 'asset/resource',
       },
       {

@@ -40,6 +40,7 @@ module.exports = {
           ['globalConfig', './src/globalConfig'],
           ['modules', './src/components/modules'],
           ['layouts', './src/components/layouts'],
+          ['pages', './src/components/pages']
         ],
         extensions: ['.ts', '.js', '.jsx', '.json'],
       },

@@ -6,6 +6,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.1] - 2023-03-28
+
+### Added
+- React Router Support and basic routing
+- Home component (./src/components/pages/Home)
+- Added pages directory (./src/components/pages/Home) to aliases
+- Added font files (./src/globalAssets/fonts/)
+- Added HeroImage Component (./src/components/modules/HeroImage)
+- Added CornerWrap Component (./components/elements/CornerWrap)
+- Added Project Component (./src/components/elements/Project)
+- Added Projects Component (./src/components/llayouts/Projects)
+- Added Skills Components (./src/components/layouts/skills)
+- Added AccordionWrap Component (./src/components/modules/AccordionWrap)
+- Added AccordionItem Component (./src/components/elements/AccordionItem)
+- 
+  
+### Changed
+- Added font support to Global Styles
+- Added proper structure and styles to the Header
+
+### Packages Installed:
+- React Router v6.9.0
+
 ## [0.1.0] - 2023-03-26
 - Initial version:
   - Cloned website
