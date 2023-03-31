@@ -11,14 +11,14 @@ const projects = [
   },
   {
     title: 'Portfolio Rebuild - 2022',
-    image: require('globalAssets/images/projects/portfolio_rebuild_2022.PNG'),
+    image: require('globalAssets/images/projects/portfolio_rebuild_2022.png'),
     desc: 'The 2022 rebuild of my portfolio, using the below ReactJS Template below.',
     tech: 'ReactJS, Webpack 5, Babel 7, ESLint, Styled-Components, React Router',
     git: 'https://github.com/karlchvojka/2022_portfolio'
   },
   {
     title: 'ReactJS Template - 2022',
-    image: require('globalAssets/images/projects/react_template_2022.PNG'),
+    image: require('globalAssets/images/projects/react_template_2022.png'),
     desc: 'A CRA Alternative. This was built to better understand how React works, and how to properly configure it.',
     tech: 'ReactJS, Webpack 5, Babel 7, ESLint, Styled-Components, React Router',
     git: 'https://github.com/karlchvojka/reactjs_template_2022'

@@ -86,7 +86,7 @@ module.exports = {
       },
       // `ts` and `tsx` files are parsed using `ts-loader`
       { 
-        test: /\.(ts|tsx)$/, 
+        test: /\.([cm]?ts|tsx)$/, 
         loader: "ts-loader" 
       }
     ],

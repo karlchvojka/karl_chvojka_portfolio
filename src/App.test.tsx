@@ -3,6 +3,7 @@ import React from 'react'
 
 // Library Imports
 import { render, screen } from '@testing-library/react'
+import { BrowserRouter, MemoryRouter } from 'react-router-dom'
 
 // Component Imports
 import App from './App'
@@ -14,10 +15,10 @@ import App from './App'
  */
 test('renders the landing page', async () => {
   // Render App
-  render(<App />)
+  render(<App />, { wrapper: BrowserRouter })
 
   // Asyncronously extract header with new text
-  const header = await screen.findByText('ReactJS Basic Template 2023')
+  const header = await screen.findByText("Heya! I'm Karl Chvojka.")
 
   // Assert header to have text.
   expect(header).toBeInTheDocument();
