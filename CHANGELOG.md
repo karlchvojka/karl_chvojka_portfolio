@@ -13,7 +13,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Home component (./src/components/pages/Home)
 - Added pages directory (./src/components/pages/Home) to aliases
 - Added font files (./src/globalAssets/fonts/)
+- Added HeroImage Component (./src/components/modules/HeroImage)
+- Added CornerWrap Component (./components/elements/CornerWrap)
 - Added Project Component (./src/components/elements/Project)
+- Added Projects Component (./src/components/llayouts/Projects)
+- Added Skills Components (./src/components/layouts/skills)
+- Added AccordionWrap Component (./src/components/modules/AccordionWrap)
+- Added AccordionItem Component (./src/components/elements/AccordionItem)
+- 
   
 ### Changed
 - Added font support to Global Styles
