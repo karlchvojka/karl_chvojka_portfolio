@@ -8,48 +8,43 @@ import { defaultColors } from 'globalConfig/colors'
 const StyledHeader = styled.header`
 /* MOBILE FIRST DEFAULT STYLES */
 
-  border-bottom: 1px solid ${defaultColors.cyberBlue};
-  padding: 10px 14px;
-  max-width: 100%;
+background-color: #ffffff;
+display: grid;
+grid-template-columns: 35px 130px;
+justify-content: space-between;
+padding: 10px;
+width: calc(100% - 20px);
 
-  p {
-    text-align: center; 
+img {
+  width: 35px;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  width: 130px;
+
+  a:link, a:visited {
+    color: ${defaultColors.darkGrey};
+    font-family: 'MontserratBold', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
   }
 
-
-/* Min width of 375 */
-  ${media.iphoneSe `
-    
-  `}
-
-/* Min width of 414 */
-  ${media.iphoneXr `
-    
-  `}
-
-/* Min width of 576 */
-  ${media.landscapePhones `
-    
-  `}
+  a:hover, a:active {
+    color: ${defaultColors.orange};
+  }
+}
 
 /* Min width of 768 */
   ${media.tablet `
-    
-  `}
+    grid-template-columns: 35px 150px;
 
-/* Min width of 1024 */
-  ${media.desktop `
-    
-  `}
-
-/* Min width of 1200 */
-  ${media.widescreen `
-    
-  `}
-
-/* Min width of 1980 */
-  ${media.udh `
-    
+    nav {
+      grid-template-columns: 42% 58%;
+      column-gap: 10px;
+    }
   `}
 `
 

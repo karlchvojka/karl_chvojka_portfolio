@@ -1,6 +1,12 @@
 // Framework Imports
 import React from 'react'
 
+// Library Imports
+import { Link } from 'react-router-dom'
+
+// Asset Imports
+import HexaLogo from './assets/hexapixel_logo.jpg'
+
 // CSS Imports
 import StyledHeader from './StyledHeader'
 
@@ -11,12 +17,15 @@ interface HeaderProps {
 
 /**
  * This the Header component.
- * @param id - ID of the component. Used for CSS Purposes in App
  */
 const Header = ( { id }: HeaderProps ) => {
   return (
     <StyledHeader>
-      <p>ReactJS Basic Template</p>
+      <img src={HexaLogo} alt="Hexapixel Logo" />
+      <nav>
+        <Link to='/'>Home</Link>
+        <Link to='resume'>Resume</Link>
+      </nav>
     </StyledHeader>
   )
 }

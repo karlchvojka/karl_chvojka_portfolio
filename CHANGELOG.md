@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   
 ### Changed
 - Added font support to Global Styles
+- Added proper structure and styles to the Header
 
 ### Packages Installed:
 - React Router v6.9.0
