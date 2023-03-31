@@ -3,7 +3,8 @@ import React from 'react'
 
 // Component Imports
 import HeroImage from 'modules/HeroImage/HeroImage'
-import Projects from 'modules/Projects/Projects'
+import Projects from 'layouts/Projects/Projects'
+import Skills from 'layouts/Skills/Skills'
 
 // CSS Imports
 import StyledHome from './StyledHome'
@@ -16,6 +17,7 @@ const Home = () => {
     <StyledHome>
       <HeroImage />
       <Projects />
+      <Skills />
     </StyledHome>
   )
 }
