@@ -69,6 +69,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
+    text-align: left;
   }
 
   body {
@@ -76,41 +77,65 @@ const GlobalStyle = createGlobalStyle`
   }
 
   h1 {
+    font-family: 'MontserratBold', sans-serif;
     font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
   }
 
   h2 {
+    font-family: 'MontserratBold', sans-serif;
     font-size: 2rem;
     line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
   }
 
   h3 {
+    font-family: 'MontserratBold', sans-serif;
     font-size: 1.75rem;
+    font-weight: bold;
     line-height: 1.5;
+    margin-bottom: 20px;
+    text-transform: uppercase;
   }
 
   h4 {
+    font-family: 'MontserratBold', sans-serif;
     font-size: 1.5rem;
+    font-weight: 700;
     line-height: 1.5;
+    margin-bottom:20px;
+    text-transform: uppercase;
   }
 
   h5 {
+    font-family: 'MontserratBold', sans-serif;
     font-size: 1.25rem;
     line-height: 1.5;
+    text-transform: uppercase;
   }
 
   h6 {
+    font-family: 'MontserratBold', sans-serif;
     font-size: 1rem;
     line-height: 1.5;
+    text-transform: uppercase;
   }
 
   p {
+    font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     line-height: 1.2;
+    margin-bottom:10px;
   }
 
   a {
-    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size:1rem;
+    text-decoration: none;
   }
 
   a:link, a:visited {

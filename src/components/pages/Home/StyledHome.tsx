@@ -11,11 +11,6 @@ const StyledHome = styled.section`
   border-bottom: 1px solid ${defaultColors.cyberBlue};
   max-width: 100%;
 
-  p {
-    text-align: center; 
-  }
-
-
 /* Min width of 375 */
   ${media.iphoneSe `
     

@@ -12,11 +12,13 @@ import ColumnLayout from 'layouts/ColumnLayout/ColumnLayout'
 
 // CSS Imports
 import GlobalStyle from 'src/globalConfig/GlobalStyles'
+import GlobalFonts from 'src/globalAssets/fonts/fonts'
 import StyledApp from './StyledApp'
 
 const App: React.FC = () => {
   return (
     <StyledApp id='container'>
+      <GlobalFonts />
       <GlobalStyle />
       <Header id='headerWrap' />
       <Routes>

@@ -1,3 +1,4 @@
+// Color Variable Declarations
 const defaultColors = {
   cyberBlue: '#00abdf',
   darkGrey: '#283040',
