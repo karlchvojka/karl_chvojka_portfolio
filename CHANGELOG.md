@@ -20,7 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added Skills Components (./src/components/layouts/skills)
 - Added AccordionWrap Component (./src/components/modules/AccordionWrap)
 - Added AccordionItem Component (./src/components/elements/AccordionItem)
-- 
+- Added Resume Page (./src/components/Resume/Resume)
   
 ### Changed
 - Added font support to Global Styles
