@@ -72,10 +72,6 @@ const GlobalStyle = createGlobalStyle`
     text-align: left;
   }
 
-  body {
-    background-color: ${defaultColors.darkGrey};
-  }
-
   h1 {
     font-family: 'MontserratBold', sans-serif;
     font-size: 2.5rem;
