@@ -17,7 +17,7 @@ import StyledHome from './StyledHome'
 const Home = () => {
   return (
     <StyledHome>
-      <Header id='headerWrap' />
+      <Header />
       <HeroImage />
       <Projects />
       <Skills />

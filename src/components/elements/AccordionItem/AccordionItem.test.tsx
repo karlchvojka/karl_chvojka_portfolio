@@ -1,11 +1,10 @@
 // Framework Imports
-import React, { useState } from 'react'
+import React from 'react'
 
 // Library Imports
-import { render, screen, act, fireEvent, getByTestId, getByText, within, queryByTestId } from '@testing-library/react'
-import { describe, expect, test } from '@jest/globals'
+import { render, screen, fireEvent } from '@testing-library/react'
+import { describe, expect } from '@jest/globals'
 import '@testing-library/jest-dom/'
-
 
 // Component Imports
 import AccordionItem from './AccordionItem'

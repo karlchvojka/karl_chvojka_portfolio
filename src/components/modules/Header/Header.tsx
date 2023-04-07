@@ -10,15 +10,10 @@ import HexaLogo from './assets/hexapixel_logo.jpg'
 // CSS Imports
 import StyledHeader from './StyledHeader'
 
-// Types Declarations
-interface HeaderProps {
-  id: string
-}
-
 /**
  * This the Header component.
  */
-const Header = ( { id }: HeaderProps ) => {
+const Header = () => {
   return (
     <StyledHeader>
       <img src={HexaLogo} alt="Hexapixel Logo" />
