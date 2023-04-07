@@ -26,7 +26,7 @@ interface AccordionWrapProps {
  */
 const AccordionWrap = ({ data }: AccordionWrapProps) => {
   return (
-    <StyledAccordionWrap>
+    <StyledAccordionWrap data-testid="accordionWrap">
       { 
         data.map(( section, index ) => (
           <CornerWrap className={'skillsSection'} key={section.key}>
