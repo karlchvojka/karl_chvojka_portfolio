@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
   - Proper testing to AccordionItem component
+  - Proper testing to Project component
 
 ### Changed
   - Edited Eslint, Jest, and TS configuration to work properly.

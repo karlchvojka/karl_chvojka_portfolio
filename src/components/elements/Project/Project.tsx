@@ -26,10 +26,10 @@ const Project = ({
   return (
     <StyledProject projImg={projImg}>
       <section className='projImgWrap'></section>
-      <h3>{projTitle}</h3>
-      <p>{projDesc}</p>
+      <h3 data-testid='projTitle'>{projTitle}</h3>
+      <p data-testid='projDesc'>{projDesc}</p>
       <h4>Technology Used:</h4>
-      <p>{projTech}</p>
+      <p data-testid='projTech'>{projTech}</p>
       <a href={projGit} target='blank'><i className='fa fa-github'></i>View Project</a>
     </StyledProject>
   )
