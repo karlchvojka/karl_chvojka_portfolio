@@ -51,15 +51,15 @@ const Resume = () => {
         }
       </section>
       <section className='skills'>
-        <h2>Skills</h2>
+        <h2>Notable Skills</h2>
         <section className='skillsWrap'>
           {
             skills.map(( section, index ) => (
               <section className={section.title.replace(/\s/g, '')} key={section.key + index}>
                 <h3>{section.title}</h3>
-                <ul>
-                  {section.skillList.map((skill, index) => (<li><p>{skill.title}</p></li>))}
-                </ul>
+                <p>
+                  {section.skillList.map((skill, index) => (<span>{skill.title + ', '}</span>))}
+                </p>
               </section>
             ))
           }
