@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
   - Edited Eslint, Jest, and TS configuration to work properly.
+  - Created columns for Projects and Skills section on bigger sized screens.
 
 ## [0.1.1] - 2023-03-28
 
