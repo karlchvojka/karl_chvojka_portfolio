@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Created columns for Projects and Skills section on bigger sized screens.
   - Updated Portfolio Data
   - Cleaned up Resume Styles
+  - Exported out Education data to a file
 
 ## [0.1.1] - 2023-03-28
 

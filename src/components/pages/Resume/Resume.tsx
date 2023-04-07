@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import StyledResume from './StyledResume'
 
 // Data Imports
+import education from 'globalAssets/data/education'
 import resume from 'globalAssets/data/resume'
 import skills from 'globalAssets/data/skills'
 
@@ -38,13 +39,13 @@ const Resume = () => {
         <h2>Work Experience</h2>
         {
           resume.workExperience.placements.map(( place, index) => (
-            <section className='workplace'>
+            <section className='workplace' key={place.company+index}>
               <h3>{place.company}</h3>
               <section className='workplaceHeader'>
                 <h4>{place.position}</h4>
                 <p>{place.dates}</p>
               </section>
-              <p className='keywords'><span>Noteable Keywords:</span> { place.keywords.map((keyword, index) => (`${keyword}, ` )) }</p>
+              <p className='keywords'><span>Noteable Keywords:</span> { place.keywords.map((keyword, index) => (<>`${keyword}, `</> )) }</p>
               <p>{place.desc}</p>
             </section>
           ))
@@ -67,23 +68,19 @@ const Resume = () => {
       </section>
       <section className='education'>
         <h2>Education</h2>
-        <section className='edItem'>
-          <h3>Lighthouse Labs, Toronto</h3>
-          <section className='edHeader'>
-            <h4>Web Development Bootcamp</h4>
-            <p>APR 2019 - JUNE 2019</p>
-          </section>
-          <p>The Web Development Bootcamp is a 12 week, 40+ hours/week bootcamp. It covers the most popular and marketable languages and frameworks used in Web Development today.</p>
-          <p>The topics covered are: JavaScript, Node.js, Express, PostgreSQL, MongoDB, React, Ruby on Rails, Automated Testing, and Computer Science Fundamentals.</p>
-        </section>
-        <section className='edItem'>
-          <h3>EDMONTON ARTS COLLEGE</h3>
-          <section className='edHeader'>
-            <h4>DIGITAL MEDIA PRODUCTION PROGRAM</h4>
-            <p>June 2010</p>
-          </section>
-          <p>Topics Covered: Education, Student Instruction, Front End Development (HTML5, CSS3), JavaScript, jQuery, Wordpress, Drupal, Joomla!, Design Interpretation, Career Guidence</p>
-        </section>
+        {
+          education.map(( school, index ) => (
+            <section className='edItem' key={school.location+index}>
+              <h3>{school.location}</h3>
+              <section className='edHeader'>
+                <h4>{school.program}</h4>
+                <p>{school.dates}</p>
+              </section>
+              <p>{school.desc}</p>
+              <p>{school.topics}</p>
+            </section>
+          ))
+        }  
       </section>
     </StyledResume>
   )
