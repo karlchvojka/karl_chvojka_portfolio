@@ -1,5 +1,2 @@
-import '@testing-library/jest-dom';
-
-afterEach(() => {
-  jest.useRealTimers();
-});
+import '@testing-library/jest-dom'
+import '@testing-library/jest-dom/extend-expect'

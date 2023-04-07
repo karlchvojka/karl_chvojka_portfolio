@@ -2,10 +2,12 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    jest: true
   },
   extends: [
     'plugin:react/recommended',
     'airbnb',
+    'plugin:jest/recommended'
   ],
   parserOptions: {
     ecmaFeatures: {
@@ -16,6 +18,7 @@ module.exports = {
   },
   plugins: [
     'react',
+    'jest'
   ],
   rules: {
     semi: ['error', 'never'],
@@ -25,10 +28,19 @@ module.exports = {
     'arrow-body-style': ['error', 'always'],
     quotes: ['error', 'single'],
     'jsx-a11y/no-static-element-interactions': ['always'],
+    "jest/no-disabled-tests": "warn",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/prefer-to-have-length": "warn",
+    "jest/valid-expect": "error",
+    "jest/prefer-expect-assertions": "off"
   },
   settings: {
     react: {
       version: 'detect',
+    },
+    jest: {
+      version: require('jest/package.json').version,
     },
     'import/resolver': {
       alias: {

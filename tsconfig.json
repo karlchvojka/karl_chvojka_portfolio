@@ -21,8 +21,10 @@
       "modules/*": ["src/components/modules/*"],
       "layouts/*": ["layouts", "src/components/layouts/*"],
       "pages/*": ["pages", "src/components/pages/*"]
-    }
+    },
+    "types": ["node", "jest", "@testing-library/jest-dom"]
   },
-  "include": ["src/**/*", "./index.tsx"],
+  "setupFilesAfterEnv": ["<rootDir>/setup-matchers.js"],
+  "include": ["src/**/*", "./index.tsx", "./setup-jest.js"],
   "exclude": ["node_modules", "dist"]
 }

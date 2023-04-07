@@ -1,9 +1,10 @@
-/** @type {import('jest').Config} */
+/** @type {import('ts-jest').JestConfigWithTsJest} */
 const { defaults } = require('jest-config');
+import type { Config } from 'jest'
 
-const config = {
+const config: Config = {
   verbose: true,
-  moduleFileExtensions: [...defaults.moduleFileExtensions, 'mts', 'cts'],
+  moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
   moduleNameMapper: {
     'src/(.*)': '<rootDir>/src/$1',
     'elements/(.*)': '<rootDir>/src/components/elements/$1',
@@ -13,13 +14,15 @@ const config = {
     'modules/(.*)':  '<rootDir>/src/components/modules/$1',
     'pages/(.*)': '<rootDir>/src/components/pages/$1'
   },
-  setupFilesAfterEnv: ['<rootDir>/setup-jest.js'],
-  testEnvironment: 'jsdom',
+  testEnvironment: 'jest-environment-jsdom',
   transform: {
     '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$': '<rootDir>/fileTransformer.js',
     '^.+\\.(ts|tsx)?$': 'ts-jest',
     '^.+\\.(js|jsx)$': 'babel-jest'
   },
+  roots: ["./src"],
+  setupFilesAfterEnv: ['<rootDir>/setup-jest.js'],
+  preset: 'ts-jest',
 };
 
 module.exports = config;
