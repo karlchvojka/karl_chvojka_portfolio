@@ -5,6 +5,9 @@ import media from 'globalConfig/mobile'
 // Variable Imports
 import { defaultColors } from './colors'
 
+// Asset Imports
+import hexarepeat from 'globalAssets/images/bgrep.png'
+
 const GlobalStyle = createGlobalStyle`  
   /*
     START OF RESET
@@ -176,6 +179,12 @@ const GlobalStyle = createGlobalStyle`
   p {
     font-size: 0.9rem;
   }
+
+  body {
+    background-image: url(${hexarepeat});
+    background-repeat: repeat;
+  }
+
   /* Min width of 375 */
     ${media.iphoneSe `
       
