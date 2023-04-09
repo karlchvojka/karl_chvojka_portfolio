@@ -20,7 +20,6 @@ const Resume = () => {
     <StyledResume>
       <section className='controls'>
         <p>To save as pdf:&nbsp;&nbsp; 1. Right click, click 'Print'&nbsp;&nbsp; 2. Change Destination to 'Save as PDF'&nbsp;&nbsp; 3. Press Save</p>
-        <Link to="/">Go Back</Link>
       </section>
       <section className='contacts'>
         <h1>Karl Chvojka</h1>
@@ -45,7 +44,7 @@ const Resume = () => {
                 <h4>{place.position}</h4>
                 <p>{place.dates}</p>
               </section>
-              <p className='keywords'><span>Noteable Keywords:</span> { place.keywords.map((keyword, index) => (<>`${keyword}, `</> )) }</p>
+              <p className='keywords'><span>Noteable Keywords:</span> { place.keywords.map((keyword, index) => (<span key={keyword}>{keyword}, </span>))}</p>
               <p>{place.desc}</p>
             </section>
           ))
@@ -59,7 +58,7 @@ const Resume = () => {
               <section className={section.title.replace(/\s/g, '')} key={section.key + index}>
                 <h3>{section.title}</h3>
                 <p>
-                  {section.skillList.map((skill, index) => (<span>{skill.title + ', '}</span>))}
+                  {section.skillList.map((skill, index) => (<span key={skill.title}>{skill.title + ', '}</span>))}
                 </p>
               </section>
             ))

@@ -1,0 +1,906 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) Column Layout Matches DOM Snapshot 1`] = `
+<section
+  className="sc-beqWaB kgJToi"
+>
+  <section
+    className="controls"
+  >
+    <p>
+      To save as pdf:   1. Right click, click 'Print'   2. Change Destination to 'Save as PDF'   3. Press Save
+    </p>
+  </section>
+  <section
+    className="contacts"
+  >
+    <h1>
+      Karl Chvojka
+    </h1>
+    <h2>
+      Front End Web Developer
+    </h2>
+    <p>
+      Portfolio: 
+      <a
+        href="http://karlchvojka.com"
+      >
+        karlchvojka.com
+      </a>
+    </p>
+    <p>
+      Github: 
+      <a
+        href="https://github.com/karlchvojka"
+      >
+        https://github.com/karlchvojka
+      </a>
+    </p>
+    <p>
+      Linkedin: 
+      <a
+        href="https://www.linkedin.com/in/karlchvojka/"
+      >
+        https://www.linkedin.com/in/karlchvojka/
+      </a>
+    </p>
+    <p>
+      Email: 
+      <a
+        href="mailto:karl.chvojka@protonmail.com"
+      >
+        karl.chvojka@protonmail.com
+      </a>
+    </p>
+  </section>
+  <section
+    className="profile"
+  >
+    <h2>
+      Profile
+    </h2>
+    <p>
+      I am a Fullstack Web Developer with 10 Years of industry experience building websites, being part of advertising campaigns, interacting with traditional media, and working in teams of people from a variety of disciplines. I specialize in Frontend Technologies (JavaScript, Responsive design libraries, React, HTML5, CSS3) with knowledge and understanding of backend Technologies (Node.js,  Ruby on Rails, Relational and Document databases like PostgreSQL, MongoDB, mySQL, etc). 
+    </p>
+    <p>
+      I also have experience in Project Management, project budgeting, SEO techniques, Online and Traditional advertising, web, graphic, and traditional media design, and how all the parts can work together in an advertising campaign.
+    </p>
+  </section>
+  <section
+    className="workExp"
+  >
+    <h2>
+      Work Experience
+    </h2>
+    <section
+      className="workplace"
+    >
+      <h3>
+        Open Mind Developments
+      </h3>
+      <section
+        className="workplaceHeader"
+      >
+        <h4>
+          Front-End Developer
+        </h4>
+        <p>
+          Nov 2022 - Dec 2022
+        </p>
+      </section>
+      <p
+        className="keywords"
+      >
+        <span>
+          Noteable Keywords:
+        </span>
+         
+        <span>
+          Front-End Development (HTML5, CSS3, CSS Grid, Flexbox)
+          , 
+        </span>
+        <span>
+          JavaScript
+          , 
+        </span>
+        <span>
+          jQuery
+          , 
+        </span>
+        <span>
+          Tailwind
+          , 
+        </span>
+        <span>
+          Shopify
+          , 
+        </span>
+        <span>
+          ESLint
+          , 
+        </span>
+        <span>
+          JSX
+          , 
+        </span>
+        <span>
+          Developement Operations
+          , 
+        </span>
+        <span>
+          Gitlab CI/CD
+          , 
+        </span>
+      </p>
+      <p>
+        Front-End Development focusing on Customer interaction with the Shopify platform.
+      </p>
+    </section>
+    <section
+      className="workplace"
+    >
+      <h3>
+        Kepler Communications
+      </h3>
+      <section
+        className="workplaceHeader"
+      >
+        <h4>
+          Web Application Developer
+        </h4>
+        <p>
+          Mar 2021 - Jul 2022
+        </p>
+      </section>
+      <p
+        className="keywords"
+      >
+        <span>
+          Noteable Keywords:
+        </span>
+         
+        <span>
+          Front-End Development (HTML5, CSS3, CSS Grid, Flexbox)
+          , 
+        </span>
+        <span>
+          JavaScript
+          , 
+        </span>
+        <span>
+          jQuery
+          , 
+        </span>
+        <span>
+          Bootstrap
+          , 
+        </span>
+        <span>
+          ReactJS
+          , 
+        </span>
+        <span>
+          Cypress.io
+          , 
+        </span>
+        <span>
+          Jest
+          , 
+        </span>
+        <span>
+          React Testing Library
+          , 
+        </span>
+        <span>
+          ESLint
+          , 
+        </span>
+        <span>
+          JSX
+          , 
+        </span>
+        <span>
+          Developement Operations
+          , 
+        </span>
+        <span>
+          Gitlab CI/CD
+          , 
+        </span>
+        <span>
+          Semantic Ui
+          , 
+        </span>
+      </p>
+      <p>
+        Front-End developer building interfaces for handling Communication Satellite monitoring and configuration, and configuring continuous integration, deployments and testing for each.
+      </p>
+    </section>
+    <section
+      className="workplace"
+    >
+      <h3>
+        Lighthouse Labs
+      </h3>
+      <section
+        className="workplaceHeader"
+      >
+        <h4>
+          Front-End Developer
+        </h4>
+        <p>
+          Aug 2019 - Mar 2021
+        </p>
+      </section>
+      <p
+        className="keywords"
+      >
+        <span>
+          Noteable Keywords:
+        </span>
+         
+        <span>
+          Customer Service
+          , 
+        </span>
+        <span>
+          Student Mentorship
+          , 
+        </span>
+        <span>
+          Project Management
+          , 
+        </span>
+        <span>
+          Marketing
+          , 
+        </span>
+        <span>
+          Front-End Development (HTML5, CSS3, CSS Grid, Flexbox)
+          , 
+        </span>
+        <span>
+          JavaScript
+          , 
+        </span>
+        <span>
+          jQuery
+          , 
+        </span>
+        <span>
+          Bootstrap
+          , 
+        </span>
+        <span>
+          ReactJS
+          , 
+        </span>
+        <span>
+          Ruby On Rails
+          , 
+        </span>
+        <span>
+          JSX
+          , 
+        </span>
+        <span>
+          Active Record
+          , 
+        </span>
+      </p>
+      <p>
+        Working with the Marketing team to plan and execute the building of Static ReactJs sites for marketing and promotional purposes. Working with the internal staff to maintain and upgrade internal systems in React, Ruby on Rails, etc.
+      </p>
+    </section>
+    <section
+      className="workplace"
+    >
+      <h3>
+        FREELANCE WORK
+      </h3>
+      <section
+        className="workplaceHeader"
+      >
+        <h4>
+          FULL STACK DEVELOPER
+        </h4>
+        <p>
+          AUG 2010 - PRESENT
+        </p>
+      </section>
+      <p
+        className="keywords"
+      >
+        <span>
+          Noteable Keywords:
+        </span>
+         
+        <span>
+          Business Management
+          , 
+        </span>
+        <span>
+          Client Interaction
+          , 
+        </span>
+        <span>
+          Client relations
+          , 
+        </span>
+        <span>
+          Customer service
+          , 
+        </span>
+        <span>
+          Project Management
+          , 
+        </span>
+        <span>
+          Self Employment
+          , 
+        </span>
+        <span>
+          Front-End Development (HTML5, CSS3)
+          , 
+        </span>
+        <span>
+          Wordpress
+          , 
+        </span>
+        <span>
+          PHP
+          , 
+        </span>
+        <span>
+          MySQL
+          , 
+        </span>
+        <span>
+          JavaScript
+          , 
+        </span>
+        <span>
+          jQuery
+          , 
+        </span>
+        <span>
+          Bootstrap
+          , 
+        </span>
+        <span>
+          Photography
+          , 
+        </span>
+        <span>
+          User Guide Creation
+          , 
+        </span>
+      </p>
+      <p>
+        Managing and completing websites for a variety of clients. Projects are handled from initial contact with the client to the final launch including Concepts, Wireframing, Design, Development, Migration, Content Management, Testing, and Launching. Supplying clients with Hosting and Host maintenance, including Server updates, and Hosting provider interaction when needed.
+      </p>
+    </section>
+    <section
+      className="workplace"
+    >
+      <h3>
+        FREECODECAMP
+      </h3>
+      <section
+        className="workplaceHeader"
+      >
+        <h4>
+          GLOBAL COMMUNITY MANAGER
+        </h4>
+        <p>
+          AUG 2017 - APR 2020
+        </p>
+      </section>
+      <p
+        className="keywords"
+      >
+        <span>
+          Noteable Keywords:
+        </span>
+         
+        <span>
+          Social Media Management
+          , 
+        </span>
+        <span>
+          Facebook Group moderation
+          , 
+        </span>
+        <span>
+          Community Organizing
+          , 
+        </span>
+        <span>
+          Public speaking
+          , 
+        </span>
+      </p>
+      <p>
+        FreeCodeCamp is an online learning resource for Fullstack Development learning. FreeCodeCamp has broken learning Web Development into digestible chunks to allow people to learn how to code in their spare time. As a Global Community Manager, my biggest input into the FCC ecosystem is managing the moderators for the Facebook Groups and other social media.
+      </p>
+    </section>
+    <section
+      className="workplace"
+    >
+      <h3>
+        MEDIAFACE, TORONTO
+      </h3>
+      <section
+        className="workplaceHeader"
+      >
+        <h4>
+          FULLSTACK WEB DEVELOPER
+        </h4>
+        <p>
+          JUNE 2017 - OCT 2017
+        </p>
+      </section>
+      <p
+        className="keywords"
+      >
+        <span>
+          Noteable Keywords:
+        </span>
+         
+        <span>
+          Client Research
+          , 
+        </span>
+        <span>
+          Client relations
+          , 
+        </span>
+        <span>
+          Front-End Development (HTML5, CSS3)
+          , 
+        </span>
+        <span>
+          Wordpress
+          , 
+        </span>
+        <span>
+          PHP
+          , 
+        </span>
+        <span>
+          MySQL
+          , 
+        </span>
+        <span>
+          JavaScript
+          , 
+        </span>
+        <span>
+          jQuery
+          , 
+        </span>
+        <span>
+          Bootstrap
+          , 
+        </span>
+        <span>
+          Technical SEO Implementation
+          , 
+        </span>
+      </p>
+      <p>
+        Building Responsive Worpdress Themes with Bootstrap. Tasks included building full websites, and Wordpress Plugins. As well as setting up SEO Tracking codes for Google Analytics, Facebook, and Bing.
+      </p>
+    </section>
+    <section
+      className="workplace"
+    >
+      <h3>
+        DIGITAL SHIFT MARKETING, TORONTO
+      </h3>
+      <section
+        className="workplaceHeader"
+      >
+        <h4>
+          FRONT-END DEVELOPER
+        </h4>
+        <p>
+          FEB 2016 - OCT 2016
+        </p>
+      </section>
+      <p
+        className="keywords"
+      >
+        <span>
+          Noteable Keywords:
+        </span>
+         
+        <span>
+          Development Team Management Training
+          , 
+        </span>
+        <span>
+          Process writing
+          , 
+        </span>
+        <span>
+          Client Research
+          , 
+        </span>
+        <span>
+          Client relations
+          , 
+        </span>
+        <span>
+          Customer service
+          , 
+        </span>
+        <span>
+          Project Management
+          , 
+        </span>
+        <span>
+          Front End Development (HTML5, CSS3)
+          , 
+        </span>
+        <span>
+          Wordpress
+          , 
+        </span>
+        <span>
+          PHP
+          , 
+        </span>
+        <span>
+          MySQL
+          , 
+        </span>
+        <span>
+          JavaScript
+          , 
+        </span>
+        <span>
+          jQuery
+          , 
+        </span>
+        <span>
+          Bootstrap
+          , 
+        </span>
+        <span>
+          Technical SEO Implementation
+          , 
+        </span>
+      </p>
+      <p>
+        Building Responsive Worpdress Themes with Bootstrap. Tasks included building full websites to building landing pages for SEO A/B Testing. As well as setting up SEO Tracking codes for Google Analytics, Facebook, and Bing. Management duties included heading projects, as well as writing processes and procedures to be used by the development department and managing the IT needs of the company.
+      </p>
+    </section>
+    <section
+      className="workplace"
+    >
+      <h3>
+        VENTUREWEB, TORONTO
+      </h3>
+      <section
+        className="workplaceHeader"
+      >
+        <h4>
+          WEB CONSULTANT, FRONT END DEVELOPER
+        </h4>
+        <p>
+          SEPT 2013 – DEC 2014
+        </p>
+      </section>
+      <p
+        className="keywords"
+      >
+        <span>
+          Noteable Keywords:
+        </span>
+         
+        <span>
+          Development Team Management Training
+          , 
+        </span>
+        <span>
+          Process writing
+          , 
+        </span>
+        <span>
+          Client Research
+          , 
+        </span>
+        <span>
+          Client relations
+          , 
+        </span>
+        <span>
+          Customer service Project Management
+          , 
+        </span>
+        <span>
+          Front-End Development (HTML5, CSS3)
+          , 
+        </span>
+        <span>
+          Wordpress
+          , 
+        </span>
+        <span>
+          PHP
+          , 
+        </span>
+        <span>
+          MySQL
+          , 
+        </span>
+        <span>
+          Javascript
+          , 
+        </span>
+        <span>
+          jQuery
+          , 
+        </span>
+        <span>
+          Bootstrap
+          , 
+        </span>
+        <span>
+          Technical SEO Implementation
+          , 
+        </span>
+      </p>
+      <p>
+        Working as a web consultant through VentureWeb for Accenture, as a site manager for Accenture's Careers Websites. My tasks included building full websites to building landing pages for SEO A/B Testing. As well as setting up SEO Tracking codes for Google Analytics, Facebook, and Bing.
+      </p>
+    </section>
+    <section
+      className="workplace"
+    >
+      <h3>
+        NORTHLANDS, EDMONTON
+      </h3>
+      <section
+        className="workplaceHeader"
+      >
+        <h4>
+          SR. FRONT END DEVELOPER
+        </h4>
+        <p>
+          SEPT 2012 – APR 2013
+        </p>
+      </section>
+      <p
+        className="keywords"
+      >
+        <span>
+          Noteable Keywords:
+        </span>
+         
+        <span>
+          Front-End Development (HTML5, CSS3)
+          , 
+        </span>
+        <span>
+          JavaScript
+          , 
+        </span>
+        <span>
+          jQuery
+          , 
+        </span>
+        <span>
+          PHP
+          , 
+        </span>
+        <span>
+          Wordpress
+          , 
+        </span>
+        <span>
+          Drupal
+          , 
+        </span>
+        <span>
+          Joomla!
+          , 
+        </span>
+        <span>
+          User guide creation
+          , 
+        </span>
+        <span>
+          Content Management
+          , 
+        </span>
+        <span>
+          Web Platform Maintenance
+          , 
+        </span>
+        <span>
+          Server Maintenance
+          , 
+        </span>
+        <span>
+          Enterprise Level Company
+          , 
+        </span>
+      </p>
+      <p>
+        Primary responsibility for position was the updating and maintenance of the 13 web properties for Northlands. Acted as the primary contact for the hosting companies, and IT service providers that Northlands works with. This included managing, updating and maintaining the web servers, as well as working with the hosting companies to coordinate hardware maintenance and downtime. Additionally, responsible for internal system creation for managing new content to be added to the web properties.
+      </p>
+    </section>
+  </section>
+  <section
+    className="skills"
+  >
+    <h2>
+      Notable Skills
+    </h2>
+    <section
+      className="skillsWrap"
+    >
+      <section
+        className="Languages"
+      >
+        <h3>
+          Languages
+        </h3>
+        <p>
+          <span>
+            HTML5, 
+          </span>
+          <span>
+            CSS3, 
+          </span>
+          <span>
+            JavaScript, 
+          </span>
+          <span>
+            TypeScript, 
+          </span>
+          <span>
+            ES6, 
+          </span>
+          <span>
+            Liquid, 
+          </span>
+        </p>
+      </section>
+      <section
+        className="LibrariesandFrameworks"
+      >
+        <h3>
+          Libraries and Frameworks
+        </h3>
+        <p>
+          <span>
+            NodeJS, 
+          </span>
+          <span>
+            Express.Js, 
+          </span>
+          <span>
+            ReactJS, 
+          </span>
+          <span>
+            Webpack 5, 
+          </span>
+          <span>
+            Babel, 
+          </span>
+          <span>
+            ESLint, 
+          </span>
+          <span>
+            Styled-Components, 
+          </span>
+          <span>
+            React Testing Library, 
+          </span>
+          <span>
+            Jest, 
+          </span>
+          <span>
+            Cypress.io, 
+          </span>
+          <span>
+            Semantic Ui, 
+          </span>
+          <span>
+            Ajax, 
+          </span>
+          <span>
+            Bootstrap, 
+          </span>
+          <span>
+            JQuery, 
+          </span>
+          <span>
+            Tailwind CSS, 
+          </span>
+          <span>
+            Shopify, 
+          </span>
+        </p>
+      </section>
+      <section
+        className="DatabaseSystems"
+      >
+        <h3>
+          Database Systems
+        </h3>
+        <p>
+          <span>
+            MySQL, 
+          </span>
+          <span>
+            Postgressql, 
+          </span>
+          <span>
+            MongoDb, 
+          </span>
+          <span>
+            Restful Apis, 
+          </span>
+        </p>
+      </section>
+    </section>
+  </section>
+  <section
+    className="education"
+  >
+    <h2>
+      Education
+    </h2>
+    <section
+      className="edItem"
+    >
+      <h3>
+        Lighthouse Labs, Toronto
+      </h3>
+      <section
+        className="edHeader"
+      >
+        <h4>
+          Web Development Bootcamp
+        </h4>
+        <p>
+          APR 2019 - JUNE 2019
+        </p>
+      </section>
+      <p>
+        The Web Development Bootcamp is a 12 week, 40+ hours/week bootcamp. It covers the most popular and marketable languages and frameworks used in Web Development today.
+      </p>
+      <p>
+        The topics covered are: JavaScript, Node.js, Express, PostgreSQL, MongoDB, React, Ruby on Rails, Automated Testing, and Computer Science Fundamentals.
+      </p>
+    </section>
+    <section
+      className="edItem"
+    >
+      <h3>
+        EDMONTON ARTS COLLEGE
+      </h3>
+      <section
+        className="edHeader"
+      >
+        <h4>
+          DIGITAL MEDIA PRODUCTION PROGRAM
+        </h4>
+        <p>
+          June 2010
+        </p>
+      </section>
+      <p>
+        Digital Media production based in Graphic Design.
+      </p>
+      <p>
+        Topics Covered: Education, Student Instruction, Front End Development (HTML5, CSS3), JavaScript, jQuery, Wordpress, Drupal, Joomla!, Design Interpretation, Career Guidence
+      </p>
+    </section>
+  </section>
+</section>
+`;
