@@ -36,7 +36,7 @@ const skills = [
   {
     key: 'libAndFrame',
     def: false,
-    title: 'Libraries and Frameworks',
+    title: 'Libraries',
     skillList: [
       {
         title: 'NodeJS',

@@ -18,6 +18,7 @@ const StyledAccordionItem = styled.section<StyledAccordionItemProps>`
     display:grid;
     grid-template-columns: max-content max-content;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     border: none;
 
@@ -42,10 +43,14 @@ const StyledAccordionItem = styled.section<StyledAccordionItemProps>`
   }
 
   .accordion_item_content {
-    padding: 20px 55px 20px 40px;
-    display: grid;
+    display:grid;
+    padding: 0px 55px 0px 40px;
     grid-template-columns: 1fr;
     grid-column-gap: 0px;
+    max-height: 1000px;
+    overflow: hidden;
+    transition: max-height 1s ease-in-out;
+    
 
     .skillItem {
       h4 {
@@ -80,6 +85,11 @@ const StyledAccordionItem = styled.section<StyledAccordionItemProps>`
     }
   }
 
+  .accordion_item_content[aria-expanded="false"] {
+    max-height: 0px;
+    transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
+}
+  
   /* Min width of 576 */
     ${media.landscapePhones `
       .accordion_item_content {
@@ -95,7 +105,6 @@ const StyledAccordionItem = styled.section<StyledAccordionItemProps>`
   /* Min width of 768 */
     ${media.tablet `
       .accordion_item_content {
-        padding: 20px 20px 20px 20px;
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 100px;
 
