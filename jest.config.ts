@@ -23,6 +23,13 @@ const config: Config = {
   roots: ["./src"],
   setupFilesAfterEnv: ['<rootDir>/setup-jest.js'],
   preset: 'ts-jest',
+  collectCoverage: true,
+  collectCoverageFrom: ["./src/**"],
+  coverageThreshold: {
+    global: {
+      lines: 90
+    }
+  }
 };
 
 module.exports = config;

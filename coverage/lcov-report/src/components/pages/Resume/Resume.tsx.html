@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">54.54% </span>
+                <span class="strong">53.84% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>6/11</span>
+                <span class='fraction'>7/13</span>
             </div>
         
             
@@ -39,14 +39,14 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">0% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>0/5</span>
+                <span class='fraction'>0/6</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">54.54% </span>
+                <span class="strong">53.84% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>6/11</span>
+                <span class='fraction'>7/13</span>
             </div>
         
             
@@ -152,10 +152,7 @@
 <a name='L87'></a><a href='#L87'>87</a>
 <a name='L88'></a><a href='#L88'>88</a>
 <a name='L89'></a><a href='#L89'>89</a>
-<a name='L90'></a><a href='#L90'>90</a>
-<a name='L91'></a><a href='#L91'>91</a>
-<a name='L92'></a><a href='#L92'>92</a>
-<a name='L93'></a><a href='#L93'>93</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L90'></a><a href='#L90'>90</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -165,6 +162,7 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -226,11 +224,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -257,6 +251,7 @@ import { Link } from "react-router-dom";
 import StyledResume from './StyledResume'
 &nbsp;
 // Data Imports
+import education from 'globalAssets/data/education'
 import resume from 'globalAssets/data/resume'
 import skills from 'globalAssets/data/skills'
 &nbsp;
@@ -287,28 +282,28 @@ const Resume = <span class="fstat-no" title="function not covered" >() =</span>&
         &lt;h2&gt;Work Experience&lt;/h2&gt;
         {
           resume.workExperience.placements.map(<span class="fstat-no" title="function not covered" >( p</span>lace, index) =&gt; (
-<span class="cstat-no" title="statement not covered" >            &lt;section className='workplace'&gt;</span>
+<span class="cstat-no" title="statement not covered" >            &lt;section className='workplace' key={place.company+index}&gt;</span>
               &lt;h3&gt;{place.company}&lt;/h3&gt;
               &lt;section className='workplaceHeader'&gt;
                 &lt;h4&gt;{place.position}&lt;/h4&gt;
                 &lt;p&gt;{place.dates}&lt;/p&gt;
               &lt;/section&gt;
-              &lt;p className='keywords'&gt;&lt;span&gt;Noteable Keywords:&lt;/span&gt; { place.keywords.map(<span class="fstat-no" title="function not covered" >(k</span>eyword, index) =&gt; (<span class="cstat-no" title="statement not covered" >`${keyword}, ` </span>)) }&lt;/p&gt;
+              &lt;p className='keywords'&gt;&lt;span&gt;Noteable Keywords:&lt;/span&gt; { place.keywords.map(<span class="fstat-no" title="function not covered" >(k</span>eyword, index) =&gt; (<span class="cstat-no" title="statement not covered" >&lt;&gt;`${keyword}, `&lt;/&gt; </span>)) }&lt;/p&gt;
               &lt;p&gt;{place.desc}&lt;/p&gt;
             &lt;/section&gt;
           ))
         }
       &lt;/section&gt;
       &lt;section className='skills'&gt;
-        &lt;h2&gt;Skills&lt;/h2&gt;
+        &lt;h2&gt;Notable Skills&lt;/h2&gt;
         &lt;section className='skillsWrap'&gt;
           {
             skills.map(<span class="fstat-no" title="function not covered" >( s</span>ection, index ) =&gt; (
 <span class="cstat-no" title="statement not covered" >              &lt;section className={section.title.replace(/\s/g, '')} key={section.key + index}&gt;</span>
                 &lt;h3&gt;{section.title}&lt;/h3&gt;
-                &lt;ul&gt;
-                  {section.skillList.map(<span class="fstat-no" title="function not covered" >(s</span>kill, index) =&gt; (<span class="cstat-no" title="statement not covered" >&lt;li&gt;&lt;p&gt;{skill.title}&lt;/p&gt;&lt;/li&gt;)</span>)}
-                &lt;/ul&gt;
+                &lt;p&gt;
+                  {section.skillList.map(<span class="fstat-no" title="function not covered" >(s</span>kill, index) =&gt; (<span class="cstat-no" title="statement not covered" >&lt;span&gt;{skill.title + ', '}&lt;/span&gt;)</span>)}
+                &lt;/p&gt;
               &lt;/section&gt;
             ))
           }
@@ -316,23 +311,19 @@ const Resume = <span class="fstat-no" title="function not covered" >() =</span>&
       &lt;/section&gt;
       &lt;section className='education'&gt;
         &lt;h2&gt;Education&lt;/h2&gt;
-        &lt;section className='edItem'&gt;
-          &lt;h3&gt;Lighthouse Labs, Toronto&lt;/h3&gt;
-          &lt;section className='edHeader'&gt;
-            &lt;h4&gt;Web Development Bootcamp&lt;/h4&gt;
-            &lt;p&gt;APR 2019 - JUNE 2019&lt;/p&gt;
-          &lt;/section&gt;
-          &lt;p&gt;The Web Development Bootcamp is a 12 week, 40+ hours/week bootcamp. It covers the most popular and marketable languages and frameworks used in Web Development today.&lt;/p&gt;
-          &lt;p&gt;The topics covered are: JavaScript, Node.js, Express, PostgreSQL, MongoDB, React, Ruby on Rails, Automated Testing, and Computer Science Fundamentals.&lt;/p&gt;
-        &lt;/section&gt;
-        &lt;section className='edItem'&gt;
-          &lt;h3&gt;EDMONTON ARTS COLLEGE&lt;/h3&gt;
-          &lt;section className='edHeader'&gt;
-            &lt;h4&gt;DIGITAL MEDIA PRODUCTION PROGRAM&lt;/h4&gt;
-            &lt;p&gt;June 2010&lt;/p&gt;
-          &lt;/section&gt;
-          &lt;p&gt;Topics Covered: Education, Student Instruction, Front End Development (HTML5, CSS3), JavaScript, jQuery, Wordpress, Drupal, Joomla!, Design Interpretation, Career Guidence&lt;/p&gt;
-        &lt;/section&gt;
+        {
+          education.map(<span class="fstat-no" title="function not covered" >( s</span>chool, index ) =&gt; (
+<span class="cstat-no" title="statement not covered" >            &lt;section className='edItem' key={school.location+index}&gt;</span>
+              &lt;h3&gt;{school.location}&lt;/h3&gt;
+              &lt;section className='edHeader'&gt;
+                &lt;h4&gt;{school.program}&lt;/h4&gt;
+                &lt;p&gt;{school.dates}&lt;/p&gt;
+              &lt;/section&gt;
+              &lt;p&gt;{school.desc}&lt;/p&gt;
+              &lt;p&gt;{school.topics}&lt;/p&gt;
+            &lt;/section&gt;
+          ))
+        }  
       &lt;/section&gt;
     &lt;/StyledResume&gt;
   )
@@ -346,7 +337,7 @@ export default Resume
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2023-04-01T04:03:11.946Z
+                at 2023-04-09T01:31:59.101Z
             </div>
         <script src="../../../../prettify.js"></script>
         <script>

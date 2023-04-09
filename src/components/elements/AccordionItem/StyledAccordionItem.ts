@@ -12,12 +12,14 @@ import { defaultColors } from 'globalConfig/colors'
 const StyledAccordionItem = styled.section<StyledAccordionItemProps>`
   /* MOBILE FIRST DEFAULT STYLES */
 
-  .accordion_item_title {
+  .accordion_item_title button {
     background-color: ${defaultColors.darkBlue};
     cursor: pointer;
     display:grid;
     grid-template-columns: max-content max-content;
     justify-content: space-between;
+    width: 100%;
+    border: none;
 
     div {
       height: auto;
@@ -33,7 +35,7 @@ const StyledAccordionItem = styled.section<StyledAccordionItemProps>`
     }
   }
 
-  .accordion_item_title:hover {
+  .accordion_item_title button:hover {
     h3 {
       color: ${defaultColors.cyberBlue};
     }

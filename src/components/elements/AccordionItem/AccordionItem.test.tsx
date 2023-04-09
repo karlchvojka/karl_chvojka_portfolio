@@ -2,7 +2,7 @@
 import React from 'react'
 
 // Library Imports
-import { render, screen, fireEvent } from '@testing-library/react'
+import { render, screen, fireEvent, act } from '@testing-library/react'
 import { describe, expect } from '@jest/globals'
 import '@testing-library/jest-dom/'
 
@@ -17,22 +17,21 @@ const skillList = [
   }
 ]
 
-// Mount Accordion Item Component and test if key elements are rendered
 describe("(Component) Accordion Item", () => {
-  const { container } = render(
-    <AccordionItem
-      title={'Skills Test'}
-      def={true}
-      skillList={skillList}
-    />
-  )
-  
-  // Variable Declarations
-  const contentArea = screen.getByTestId('accordionItemContent')
-  const titleButton = screen.getByTestId('accordionItemTitleText')
-  const progressBarText = screen.getByTestId('progressBarText')
-
   it("Renders the AccordionItemContent area open if isActive is true.", () => {
+    // Mount Accordion Item
+    const { container } = render(
+      <AccordionItem
+        title={'Skills Test'}
+        def={true}
+        skillList={skillList}
+      />
+    )
+     // Variable Declarations
+    const contentArea = screen.getByTestId('accordionItemContent')
+    const titleButton = screen.getByTestId('accordionItemTitle')
+    const progressBarText = screen.getByTestId('progressBarText')
+
     // Title section has 'Skills Test' text.
     expect(titleButton?.textContent).toContain("Skills Test")
 
@@ -42,17 +41,38 @@ describe("(Component) Accordion Item", () => {
   })
 
   it("should update isActive state to false on click of title", () => {
+    const { container } = render(
+      <AccordionItem
+        title={'Skills Test'}
+        def={true}
+        skillList={skillList}
+      />
+    )
+
+    // Variable Declarations
+    const contentArea = screen.getByTestId('accordionItemContent')
+    const handleClick = jest.spyOn(React, "useState");
+    const titleButton = screen.getByTestId('accordionItemTitle')
+    const titleText = screen.getByTestId('accordionItemTitleText')
+
     // Title section has rendered 'Skills Test' title button.
-    expect(titleButton?.textContent).toContain("Skills Test")
+    expect(titleText?.textContent).toContain("Skills Test")
 
     // The accordion item is currently open, showing the HTML5 text.
     expect(contentArea?.textContent).toContain("HTML5")
 
     // Click on the Title section
-    fireEvent.click(titleButton)
+    act( () => fireEvent.click(titleButton) )
 
     // The Accordion shouls be closed, and thus Null.
     expect(screen.queryByText("HTML5")).toBeNull()
+
+    // Click on the Title section
+    act( () => fireEvent.click(titleButton) )
+
+    // Expect click to be called, and the accordion to be closed.
+    expect(handleClick).toHaveBeenCalled();
+    expect(contentArea?.textContent).toContain("HTML5")
   })
 
 

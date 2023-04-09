@@ -1,5 +1,5 @@
 // Framework Imports
-import React, { useState } from 'react'
+import React from 'react'
 
 // Asset Imports
 import arrow from 'globalAssets/images/arrow.png'
@@ -21,17 +21,17 @@ interface AccordionItemProps {
  */
 const AccordionItem = ({ title, def, skillList }: AccordionItemProps) => {
   // State Declarations
-  const [isActive, setIsActive] = useState(def ? true : false)
+  const [isActive, setIsActive] = React.useState(def ? true : false)
 
   return (
     <StyledAccordionItem rotation={isActive ? '180deg' : 'none'}>
       <section
         className="accordion_item_title"
-        data-testid="accordionItemTitle"
-        onClick={()=> setIsActive(!isActive)}
       >
-        <div><h3 data-testid='accordionItemTitleText'>{title}</h3></div>
-        <div><img src={arrow} /></div>
+        <button data-testid="accordionItemTitle"  onClick={() => setIsActive(!isActive)}>
+          <div><h3 data-testid='accordionItemTitleText'>{title}</h3></div>
+          <div><img src={arrow} /></div>
+        </button>
       </section>
       {
         isActive && <section data-testid='accordionItemContent' className="accordion_item_content">
