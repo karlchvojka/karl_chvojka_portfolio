@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1681009350508" clover="3.2.0">
-  <project timestamp="1681009350508" name="All files">
-    <metrics statements="199" coveredstatements="196" conditionals="6" coveredconditionals="6" methods="27" coveredmethods="27" elements="232" coveredelements="229" complexity="0" loc="199" ncloc="199" packages="26" files="56" classes="56"/>
+<coverage generated="1681010151839" clover="3.2.0">
+  <project timestamp="1681010151839" name="All files">
+    <metrics statements="173" coveredstatements="173" conditionals="6" coveredconditionals="6" methods="27" coveredmethods="27" elements="206" coveredelements="206" complexity="0" loc="173" ncloc="173" packages="17" files="33" classes="33"/>
     <package name="src">
       <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="App.tsx" path="/home/blackburn/code_bases/projects/portfolio/src/App.tsx">
@@ -299,110 +299,6 @@
         <line num="405" count="2" type="stmt"/>
       </file>
     </package>
-    <package name="src.globalAssets.data">
-      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="education.ts" path="/home/blackburn/code_bases/projects/portfolio/src/globalAssets/data/education.ts">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="21" count="2" type="stmt"/>
-      </file>
-      <file name="projects.ts" path="/home/blackburn/code_bases/projects/portfolio/src/globalAssets/data/projects.ts">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="70" count="1" type="stmt"/>
-      </file>
-      <file name="resume.ts" path="/home/blackburn/code_bases/projects/portfolio/src/globalAssets/data/resume.ts">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="187" count="2" type="stmt"/>
-      </file>
-      <file name="skills.ts" path="/home/blackburn/code_bases/projects/portfolio/src/globalAssets/data/skills.ts">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="132" count="2" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.globalAssets.fonts">
-      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="fonts.js" path="/home/blackburn/code_bases/projects/portfolio/src/globalAssets/fonts/fonts.js">
-        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      </file>
-    </package>
-    <package name="src.globalAssets.fonts.Lato">
-      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="Lato-Regular.ttf" path="/home/blackburn/code_bases/projects/portfolio/src/globalAssets/fonts/Lato/Lato-Regular.ttf">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.globalAssets.fonts.Montserrat.static">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="Montserrat-Bold.ttf" path="/home/blackburn/code_bases/projects/portfolio/src/globalAssets/fonts/Montserrat/static/Montserrat-Bold.ttf">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-      </file>
-      <file name="Montserrat-Regular.ttf" path="/home/blackburn/code_bases/projects/portfolio/src/globalAssets/fonts/Montserrat/static/Montserrat-Regular.ttf">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.globalAssets.fonts.Roboto_Condensed">
-      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="RobotoCondensed-Regular.ttf" path="/home/blackburn/code_bases/projects/portfolio/src/globalAssets/fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.globalAssets.images">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="arrow.png" path="/home/blackburn/code_bases/projects/portfolio/src/globalAssets/images/arrow.png">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="3" type="stmt"/>
-      </file>
-      <file name="bgrep.png" path="/home/blackburn/code_bases/projects/portfolio/src/globalAssets/images/bgrep.png">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-      </file>
-      <file name="hexrepeat2.jpg" path="/home/blackburn/code_bases/projects/portfolio/src/globalAssets/images/hexrepeat2.jpg">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.globalAssets.images.projects">
-      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="jungle.png" path="/home/blackburn/code_bases/projects/portfolio/src/globalAssets/images/projects/jungle.png">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-      </file>
-      <file name="portfolio_rebuild.png" path="/home/blackburn/code_bases/projects/portfolio/src/globalAssets/images/projects/portfolio_rebuild.png">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-      </file>
-      <file name="portfolio_rebuild_2022.png" path="/home/blackburn/code_bases/projects/portfolio/src/globalAssets/images/projects/portfolio_rebuild_2022.png">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-      </file>
-      <file name="react_template_2022.png" path="/home/blackburn/code_bases/projects/portfolio/src/globalAssets/images/projects/react_template_2022.png">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-      </file>
-      <file name="reactjsbasictemplate2023_screenshot.png" path="/home/blackburn/code_bases/projects/portfolio/src/globalAssets/images/projects/reactjsbasictemplate2023_screenshot.png">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-      </file>
-      <file name="squabble.png" path="/home/blackburn/code_bases/projects/portfolio/src/globalAssets/images/projects/squabble.png">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-      </file>
-      <file name="weather.png" path="/home/blackburn/code_bases/projects/portfolio/src/globalAssets/images/projects/weather.png">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-      </file>
-      <file name="weather_rebuild.png" path="/home/blackburn/code_bases/projects/portfolio/src/globalAssets/images/projects/weather_rebuild.png">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-      </file>
-    </package>
     <package name="src.globalConfig">
       <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="GlobalStyles.ts" path="/home/blackburn/code_bases/projects/portfolio/src/globalConfig/GlobalStyles.ts">
@@ -427,24 +323,6 @@
         <line num="34" count="83" type="stmt"/>
         <line num="39" count="42" type="stmt"/>
         <line num="44" count="6" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.globalConfig.templates">
-      <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="styles.ts" path="/home/blackburn/code_bases/projects/portfolio/src/globalConfig/templates/styles.ts">
-        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.types">
-      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="globals.d.ts" path="/home/blackburn/code_bases/projects/portfolio/src/types/globals.d.ts">
-        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      </file>
-      <file name="index.d.ts" path="/home/blackburn/code_bases/projects/portfolio/src/types/index.d.ts">
-        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
   </project>

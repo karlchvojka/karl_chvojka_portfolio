@@ -29,7 +29,14 @@ const config: Config = {
     global: {
       lines: 90
     }
-  }
+  },
+  coveragePathIgnorePatterns: [
+    '.*__snapshots__/.*',
+    '.*globalConfig/templates/.*',
+    '.*globalAssets/.*',
+    '.*.d.ts',
+    '.*.interface.ts'
+  ]
 };
 
 module.exports = config;
