@@ -31,6 +31,13 @@ const StyledProject= styled.section<StyledProjectProps>`
     }
   }
 
+  h3 {
+    line-height: 1;
+  }
+
+  p {
+    font-size: 1rem;
+  }
   a {
     align-self: end;
     font-weight: 700;
