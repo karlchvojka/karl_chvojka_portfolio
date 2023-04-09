@@ -71,6 +71,8 @@ const StyledAccordionItem = styled.section<StyledAccordionItemProps>`
           background-color: ${defaultColors.cyberBlue};
           border-radius: 5px;
           height: 20px;
+          display:grid;
+          align-content: center;
 
           p {
             color: ${defaultColors.darkBlue};
@@ -79,6 +81,7 @@ const StyledAccordionItem = styled.section<StyledAccordionItemProps>`
             font-weight: 700;
             padding-right: 5px;
             text-align: end;
+            margin: 0px;
           }
         }
       }
