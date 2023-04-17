@@ -73,7 +73,6 @@ const StyledAccordionItem = styled.section<StyledAccordionItemProps>`
           background-color: ${defaultColors.cyberBlue};
           border-radius: 5px;
           display:grid;
-          
           height: 20px;
 
           p {

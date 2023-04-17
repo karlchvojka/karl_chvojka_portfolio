@@ -14,7 +14,6 @@ const skillList = [
   {
     title: 'HTML5',
     perc: '100%'
-    
   }
 ]
 
