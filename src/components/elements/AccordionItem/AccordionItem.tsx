@@ -22,17 +22,6 @@ interface AccordionItemProps {
 const AccordionItem = ({ title, def, skillList }: AccordionItemProps) => {
   // State Declarations
   const [isActive, setIsActive] = React.useState(def ? true : false)
-  const [transitionExit, setTransitionExit] = React.useState(false);
-
-  const handleExit = () => {
-    setTransitionExit(true);
-    setTimeout(() => {
-      setIsActive(false);
-      setTransitionExit(false);
-      // timeout should be less than animation time otherwise state might still be true
-      // after animation ends and drawer appears for few milliseconds
-    }, 450);
-  };
 
   return (
     <StyledAccordionItem rotation={isActive ? 'none' : '180deg'}>

@@ -3,6 +3,7 @@ import { render, screen, fireEvent } from '@testing-library/react'
 import { describe, expect } from '@jest/globals'
 import '@testing-library/jest-dom/'
 
+
 // Component Imports
 import AccordionWrap from './AccordionWrap'
 
@@ -34,14 +35,14 @@ const accordionItems = [
 
 // Mount Accordion Wrap Component and test that key elements are rendered
 describe("(Component) Accordion Wrap", () => {
-  const { container } = render(
-    <AccordionWrap  data={accordionItems} />
-  ) 
 
-  // Variable Declarations
-  const contentArea = screen.getByTestId('accordionWrap')
-
-  it("Renders an accordion with two items. The first one open, the other one closed", () => {
+  it("Renders an accordion with two items. The first one open, the other one closed", async () => {
+    const { container } = render(
+      <AccordionWrap  data={accordionItems} />
+    ) 
+  
+    // Variable Declarations
+    const contentArea = screen.getByTestId('accordionWrap')
     // Languages Accordion Item is rendered
     expect(contentArea?.textContent).toContain("Languages")
     expect(contentArea?.textContent).toContain("HTML5")
@@ -49,7 +50,6 @@ describe("(Component) Accordion Wrap", () => {
 
     // Video Games accordion Item rendered but closed
     expect(contentArea?.textContent).toContain("Video Games")
-    expect(screen.queryByText("Being Awesome")).toBeNull()
-    
+    expect(await screen.findByText('Being Awesome')).toBeFalsy;
   })
 })

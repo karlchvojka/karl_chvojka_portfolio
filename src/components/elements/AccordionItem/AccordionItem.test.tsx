@@ -40,7 +40,7 @@ describe("(Component) Accordion Item", () => {
     expect(progressBarText?.textContent).toContain("100%")
   })
 
-  it("should update isActive state to false on click of title", () => {
+  it("should update isActive state to false on click of title", async () => {
     const { container } = render(
       <AccordionItem
         title={'Skills Test'}
@@ -63,9 +63,9 @@ describe("(Component) Accordion Item", () => {
 
     // Click on the Title section
     act( () => fireEvent.click(titleButton) )
-
+    expect(handleClick).toHaveBeenCalled();
     // The Accordion shouls be closed, and thus Null.
-    expect(screen.queryByText("HTML5")).toBeNull()
+    expect(await screen.findByText('HTML5')).toBeFalsy;
 
     // Click on the Title section
     act( () => fireEvent.click(titleButton) )

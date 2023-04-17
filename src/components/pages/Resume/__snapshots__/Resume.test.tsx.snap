@@ -770,10 +770,10 @@ exports[`(Component) Column Layout Matches DOM Snapshot 1`] = `
         </p>
       </section>
       <section
-        className="LibrariesandFrameworks"
+        className="Libraries"
       >
         <h3>
-          Libraries and Frameworks
+          Libraries
         </h3>
         <p>
           <span>

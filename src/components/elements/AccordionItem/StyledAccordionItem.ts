@@ -43,7 +43,7 @@ const StyledAccordionItem = styled.section<StyledAccordionItemProps>`
   }
 
   .accordion_item_content {
-    display:grid;
+    display: grid;
     padding: 0px 55px 0px 40px;
     grid-template-columns: 1fr;
     grid-column-gap: 0px;
