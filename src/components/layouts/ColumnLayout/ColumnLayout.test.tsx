@@ -2,14 +2,14 @@
 import React from 'react'
 
 // Library Imports
-import { render, screen, fireEvent, act } from '@testing-library/react'
-import { describe, expect } from '@jest/globals'
 import '@testing-library/jest-dom/'
+import { describe, expect } from '@jest/globals'
+import { render, screen } from '@testing-library/react'
 
 // Component Imports
 import ColumnLayout from './ColumnLayout'
 
-describe("(Component) Column Layout", () => {
+describe('(Component) Column Layout', () => {
   it('Renders the Column Layout component with the string as a header', () => {
     // Mount the component
     const { container } = render(
@@ -20,6 +20,6 @@ describe("(Component) Column Layout", () => {
     const headline = screen.getByTestId('columnLayoutHeadline')
 
     // Title section has 'Skills Test' text.
-    expect(headline?.textContent).toContain("Jest Test")
+    expect(headline?.textContent).toContain('Jest Test')
   })
 })

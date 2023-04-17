@@ -21,8 +21,8 @@ const App: React.FC = () => {
       <GlobalStyle />
       <Header />
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/resume' element={<Resume />} />
+        <Route element={ <Home /> } path='/'  />
+        <Route element={ <Resume /> } path='/resume' />
       </Routes>
     </StyledApp>
   )

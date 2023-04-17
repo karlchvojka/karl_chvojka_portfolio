@@ -1,5 +1,5 @@
 // Framework Imports
-import React from 'react'
+import React, { useState } from 'react'
 
 // Asset Imports
 import arrow from 'globalAssets/images/arrow.png'
@@ -21,14 +21,14 @@ interface AccordionItemProps {
  */
 const AccordionItem = ({ title, def, skillList }: AccordionItemProps) => {
   // State Declarations
-  const [isActive, setIsActive] = React.useState(def ? true : false)
+  const [isActive, setIsActive] = useState(def ? true : false)
 
   return (
     <StyledAccordionItem rotation={isActive ? 'none' : '180deg'}>
       <section
-        className="accordion_item_title"
+        className='accordion_item_title'
       >
-        <button data-testid="accordionItemTitle"  onClick={() => setIsActive(!isActive)}>
+        <button data-testid='accordionItemTitle' onClick={ () => setIsActive(!isActive) }>
           <div><h3 data-testid='accordionItemTitleText'>{title}</h3></div>
           <div><img src={arrow} /></div>
         </button>
@@ -43,8 +43,10 @@ const AccordionItem = ({ title, def, skillList }: AccordionItemProps) => {
             skillList.map(( skill, index ) => (
               <section className='skillItem' key={skill.title + index}>
                 <h4 data-testid='skillSectionTitle'>{skill.title}</h4>
-                <section className="progressWrap">
-                  <section className="progressInner" style={{width: `${skill.perc}`}}><p data-testid='progressBarText'>{skill.perc}</p></section>
+                <section className='progressWrap'>
+                  <section className='progressInner' style={{width: `${skill.perc}`}}>
+                    <p data-testid='progressBarText'>{skill.perc}</p>
+                  </section>
                 </section>
               </section>
             ))

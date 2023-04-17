@@ -13,14 +13,14 @@ const StyledAccordionItem = styled.section<StyledAccordionItemProps>`
   /* MOBILE FIRST DEFAULT STYLES */
 
   .accordion_item_title button {
+    align-items: center;
     background-color: ${defaultColors.darkBlue};
+    border: none;
     cursor: pointer;
     display:grid;
     grid-template-columns: max-content max-content;
     justify-content: space-between;
-    align-items: center;
     width: 100%;
-    border: none;
 
     div {
       height: auto;
@@ -44,11 +44,11 @@ const StyledAccordionItem = styled.section<StyledAccordionItemProps>`
 
   .accordion_item_content {
     display: grid;
-    padding: 0px 55px 0px 40px;
     grid-template-columns: 1fr;
     grid-column-gap: 0px;
     max-height: 1000px;
     overflow: hidden;
+    padding: 0px 55px 0px 40px;
     transition: max-height 1s ease-in-out;
     
 
@@ -58,6 +58,7 @@ const StyledAccordionItem = styled.section<StyledAccordionItemProps>`
         font-family: 'MontserratBold';
         margin-bottom: 4px;
       }
+
       .progressWrap {
         background-color: ${defaultColors.darkBlue};
         border: 1px solid ${defaultColors.darkBlue};
@@ -68,11 +69,12 @@ const StyledAccordionItem = styled.section<StyledAccordionItemProps>`
         width: 100%;
 
         .progressInner {
+          align-content: center;
           background-color: ${defaultColors.cyberBlue};
           border-radius: 5px;
-          height: 20px;
           display:grid;
-          align-content: center;
+          
+          height: 20px;
 
           p {
             color: ${defaultColors.darkBlue};

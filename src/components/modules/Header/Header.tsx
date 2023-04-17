@@ -16,10 +16,10 @@ import StyledHeader from './StyledHeader'
 const Header = () => {
   return (
     <StyledHeader>
-      <img src={HexaLogo} alt="Hexapixel Logo" />
+      <img src={HexaLogo} alt='Hexapixel Logo' />
       <nav>
-        <Link to="/">Home</Link>
-        <Link to="resume">Resume</Link>
+        <Link to='/'>Home</Link>
+        <Link to='resume'>Resume</Link>
       </nav>
     </StyledHeader>
   )

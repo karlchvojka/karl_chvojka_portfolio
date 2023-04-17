@@ -2,15 +2,16 @@
 import React from 'react'
 
 // Library Imports
-import { render, screen, fireEvent, act } from '@testing-library/react'
-import { describe, expect } from '@jest/globals'
 import '@testing-library/jest-dom/'
+import { describe, expect } from '@jest/globals'
+import { render, screen } from '@testing-library/react'
 
 // Component Imports
 import SidebarLayout from './SidebarLayout'
 
-describe("(Component) Column Layout", () => {
+describe('(Component) Column Layout', () => {
   it('Renders the Column Layout component with the string as a header', () => {
+    
     // Mount the component
     const { container } = render(
       <SidebarLayout />
@@ -20,6 +21,6 @@ describe("(Component) Column Layout", () => {
     const headline = screen.getByTestId('SidebarLayoutHeadline')
 
     // Title section has 'Sidebar Layout Example' text.
-    expect(headline?.textContent).toContain("Sidebar Layout Example")
+    expect(headline?.textContent).toContain('Sidebar Layout Example')
   })
 })

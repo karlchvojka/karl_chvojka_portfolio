@@ -21,19 +21,20 @@ module.exports = {
     'jest'
   ],
   rules: {
+    indent: ['error', 2],
+    quotes: ['error', 'single'],
     semi: ['error', 'never'],
+    'arrow-body-style': ['error', 'always'],
+    'jest/no-disabled-tests': 'warn',
+    'jest/no-focused-tests': 'error',
+    'jest/no-identical-title': 'error',
+    'jest/prefer-expect-assertions': 'off',
+    'jest/prefer-to-have-length': 'warn',
+    'jest/valid-expect': 'error',
+    'jsx-a11y/no-static-element-interactions': ['always'],
     'react/function-component-definition': [2, { namedComponents: 'arrow-function' }],
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
-    indent: ['error', 2],
-    'arrow-body-style': ['error', 'always'],
-    quotes: ['error', 'single'],
-    'jsx-a11y/no-static-element-interactions': ['always'],
-    "jest/no-disabled-tests": "warn",
-    "jest/no-focused-tests": "error",
-    "jest/no-identical-title": "error",
-    "jest/prefer-to-have-length": "warn",
-    "jest/valid-expect": "error",
-    "jest/prefer-expect-assertions": "off"
+    
   },
   settings: {
     react: {

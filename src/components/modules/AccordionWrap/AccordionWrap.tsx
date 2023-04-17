@@ -10,12 +10,14 @@ import StyledAccordionWrap from './StyledAccordionWrap'
 
 // Types Declarations
 import { skillItem } from 'src/types/data.interface'
+
 interface skillsSection {
   def: boolean,
   key: string,
-  title: string,
-  skillList: Array<skillItem>
+  skillList: Array<skillItem>,
+  title: string
 }
+
 interface AccordionWrapProps {
   data: Array<skillsSection>
 }
@@ -26,14 +28,14 @@ interface AccordionWrapProps {
  */
 const AccordionWrap = ({ data }: AccordionWrapProps) => {
   return (
-    <StyledAccordionWrap data-testid="accordionWrap">
+    <StyledAccordionWrap data-testid='accordionWrap'>
       { 
         data.map(( section, index ) => (
           <CornerWrap className={'skillsSection'} key={section.key}>
             <AccordionItem 
               def={section.def}
-              title={section.title}
               skillList={section.skillList}
+              title={section.title}
             />
           </CornerWrap>
         ))
