@@ -24,7 +24,6 @@
     },
     "types": ["node", "jest", "@testing-library/jest-dom"]
   },
-  "setupFilesAfterEnv": ["<rootDir>/setup-matchers.js"],
-  "include": ["src/**/*", "./index.tsx", "./setup-jest.js"],
+  "include": ["src/**/*", "./index.tsx", "src/setupTests.ts"],
   "exclude": ["node_modules", "dist"]
 }
