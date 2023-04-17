@@ -19,7 +19,7 @@ const ColumnLayout = ({ headlineText }: ColumnLayoutProps) => {
   return (
     <StyledColumnLayout>
       <section id='contentWrap'>
-        <h1>{headlineText}</h1>
+        <h1 data-testid='columnLayoutHeadline'>{headlineText}</h1>
         <h2>Font Examples:</h2>
         <h1>Heading 1</h1>
         <h2>Heading 2</h2>

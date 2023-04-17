@@ -3,23 +3,37 @@
  */
 const projects = [
   {
-    title: 'Weather App Rebuild - 2022',
+    title: 'Portfolio',
+    image: require('globalAssets/images/projects/portfolio_rebuild_2022.png'),
+    desc: 'Rebuild of my portfolio, buit with the ReactJS Boilerplate below.',
+    tech: 'ReactJS, Webpack 5, Babel 7, TypeScript, ESLint, Styled-Components, Jest, React Testing Library',
+    git: 'https://github.com/karlchvojka/karl_chvojka_portfolio'
+  },
+  {
+    title: 'ReactJS Boilerplate',
+    image: require('globalAssets/images/projects/reactjsbasictemplate2023_screenshot.png'),
+    desc: `A CRA Alternative. Set up to have different 'flavors', within the branches.`,
+    tech: 'ReactJS, Webpack 5, Babel 7, TypeScript, ESLint, Styled-Components, Jest, React Testing Library',
+    git: 'https://github.com/karlchvojka/reactjs_boilerplate'
+  },
+  {
+    title: 'Weather App Rebuild',
     image: require('globalAssets/images/projects/weather_rebuild.png'),
-    desc: '2022 Rebuild of the Weather app. An example of a simple API call, and Typescript. App runs within Docker containers, and is Gitlab CI/CD capable.',
+    desc: '2022 Rebuild of the Weather app. An example of a simple API call, and Typescript.',
     tech: 'ReactJS, Webpack 5, Babel 7, TypeScript, Docker, Gitlab CI/CD, ESLint, Styled-Components, React Router',
     git: 'https://github.com/karlchvojka/weather_app_rebuild'
   },
   {
-    title: 'Portfolio Rebuild - 2022',
+    title: 'Portfolio Rebuild',
     image: require('globalAssets/images/projects/portfolio_rebuild_2022.png'),
     desc: 'The 2022 rebuild of my portfolio, using the below ReactJS Template below.',
     tech: 'ReactJS, Webpack 5, Babel 7, ESLint, Styled-Components, React Router',
     git: 'https://github.com/karlchvojka/2022_portfolio'
   },
   {
-    title: 'ReactJS Template - 2022',
+    title: 'ReactJS Template',
     image: require('globalAssets/images/projects/react_template_2022.png'),
-    desc: 'A CRA Alternative. This was built to better understand how React works, and how to properly configure it.',
+    desc: 'A CRA Alternative. Built to learn how to configure Reactjs.',
     tech: 'ReactJS, Webpack 5, Babel 7, ESLint, Styled-Components, React Router',
     git: 'https://github.com/karlchvojka/reactjs_template_2022'
   },

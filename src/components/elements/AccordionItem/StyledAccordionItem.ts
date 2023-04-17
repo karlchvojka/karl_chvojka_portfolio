@@ -12,12 +12,15 @@ import { defaultColors } from 'globalConfig/colors'
 const StyledAccordionItem = styled.section<StyledAccordionItemProps>`
   /* MOBILE FIRST DEFAULT STYLES */
 
-  .accordion_item_title {
+  .accordion_item_title button {
+    align-items: center;
     background-color: ${defaultColors.darkBlue};
+    border: none;
     cursor: pointer;
     display:grid;
     grid-template-columns: max-content max-content;
     justify-content: space-between;
+    width: 100%;
 
     div {
       height: auto;
@@ -33,17 +36,21 @@ const StyledAccordionItem = styled.section<StyledAccordionItemProps>`
     }
   }
 
-  .accordion_item_title:hover {
+  .accordion_item_title button:hover {
     h3 {
       color: ${defaultColors.cyberBlue};
     }
   }
 
   .accordion_item_content {
-    padding: 20px 55px 20px 40px;
     display: grid;
     grid-template-columns: 1fr;
     grid-column-gap: 0px;
+    max-height: 1000px;
+    overflow: hidden;
+    padding: 0px 55px 0px 40px;
+    transition: max-height 1s ease-in-out;
+    
 
     .skillItem {
       h4 {
@@ -51,6 +58,7 @@ const StyledAccordionItem = styled.section<StyledAccordionItemProps>`
         font-family: 'MontserratBold';
         margin-bottom: 4px;
       }
+
       .progressWrap {
         background-color: ${defaultColors.darkBlue};
         border: 1px solid ${defaultColors.darkBlue};
@@ -61,8 +69,10 @@ const StyledAccordionItem = styled.section<StyledAccordionItemProps>`
         width: 100%;
 
         .progressInner {
+          align-content: center;
           background-color: ${defaultColors.cyberBlue};
           border-radius: 5px;
+          display:grid;
           height: 20px;
 
           p {
@@ -72,12 +82,18 @@ const StyledAccordionItem = styled.section<StyledAccordionItemProps>`
             font-weight: 700;
             padding-right: 5px;
             text-align: end;
+            margin: 0px;
           }
         }
       }
     }
   }
 
+  .accordion_item_content[aria-expanded="false"] {
+    max-height: 0px;
+    transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
+}
+  
   /* Min width of 576 */
     ${media.landscapePhones `
       .accordion_item_content {
@@ -93,7 +109,6 @@ const StyledAccordionItem = styled.section<StyledAccordionItemProps>`
   /* Min width of 768 */
     ${media.tablet `
       .accordion_item_content {
-        padding: 20px 20px 20px 20px;
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 100px;
 

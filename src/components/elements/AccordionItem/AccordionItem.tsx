@@ -24,22 +24,29 @@ const AccordionItem = ({ title, def, skillList }: AccordionItemProps) => {
   const [isActive, setIsActive] = useState(def ? true : false)
 
   return (
-    <StyledAccordionItem rotation={isActive ? '180deg' : 'none'}>
+    <StyledAccordionItem rotation={isActive ? 'none' : '180deg'}>
       <section
-        className="accordion_item_title"
-        onClick={()=> setIsActive(!isActive)}
+        className='accordion_item_title'
       >
-        <div><h3>{title}</h3></div>
-        <div><img src={arrow} /></div>
+        <button data-testid='accordionItemTitle' onClick={ () => setIsActive(!isActive) }>
+          <div><h3 data-testid='accordionItemTitleText'>{title}</h3></div>
+          <div><img src={arrow} /></div>
+        </button>
       </section>
       {
-        isActive && <section className="accordion_item_content">
+        <section 
+          data-testid='accordionItemContent'
+          className={`accordion_item_content ${isActive ? 'expanded' : 'collapsed'}`}
+          aria-expanded={isActive}
+        >
           { 
             skillList.map(( skill, index ) => (
               <section className='skillItem' key={skill.title + index}>
-                <h4>{skill.title}</h4>
-                <section className="progressWrap">
-                  <section className="progressInner" style={{width: `${skill.perc}`}}><p>{skill.perc}</p></section>
+                <h4 data-testid='skillSectionTitle'>{skill.title}</h4>
+                <section className='progressWrap'>
+                  <section className='progressInner' style={{width: `${skill.perc}`}}>
+                    <p data-testid='progressBarText'>{skill.perc}</p>
+                  </section>
                 </section>
               </section>
             ))

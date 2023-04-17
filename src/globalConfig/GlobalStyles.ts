@@ -176,6 +176,7 @@ const GlobalStyle = createGlobalStyle`
   p {
     font-size: 0.9rem;
   }
+
   /* Min width of 375 */
     ${media.iphoneSe `
       

@@ -9,8 +9,7 @@ const StyledProjects = styled.section`
   /* MOBILE FIRST DEFAULT STYLES */
 
   padding: 20px;
-  width: calc(100% - 40px;);
-
+  margin:0 auto;
 
   .projectsWrap {
     column-gap: 20px;
@@ -36,8 +35,10 @@ const StyledProjects = styled.section`
     `}
 
   /* Min width of 1024 */
+    max-width: 90%;
     ${media.desktop `
       .projectsWrap {
+        grid-template-columns: 1fr 1fr;
         h3 {
           font-size: 30px;
         }
@@ -50,6 +51,7 @@ const StyledProjects = styled.section`
 
   /* Min width of 1200 */
     ${media.widescreen `
+      max-width: 80%;
       .projectsWrap {
         grid-template-columns: 1fr 1fr 1fr;
 
