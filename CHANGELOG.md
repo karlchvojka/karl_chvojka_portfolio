@@ -12,6 +12,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
   - Updated package.json package version number.
   - Added fixed position to Header component.
+  - Added a background behind major titles on homepage.
+  - Adjusted some spacing between elements and homepage titles.
+  - Removed unneeded margins from the accordion wrap component.
+  - Added Github icon to projects (react-icons).
 
 ## [0.1.2] - 2023-03-31
 
