@@ -11,6 +11,14 @@ const StyledProjects = styled.section`
   padding: 20px;
   margin:0 auto;
 
+  h2 {
+    margin: 0;
+    color: ${defaultColors.orange};
+  }
+  
+  .titleWrap {
+    margin-bottom: 20px;
+  }
   .projectsWrap {
     column-gap: 20px;
     row-gap: 20px;

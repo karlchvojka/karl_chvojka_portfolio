@@ -17,7 +17,9 @@ import projects from 'globalAssets/data/projects'
 const Projects = () => {
   return (
     <StyledProjects>
-      <h2>projects</h2>
+      <CornerWrap className="titleWrap">
+        <h2>projects</h2>
+      </CornerWrap>
       <section className='projectsWrap'>
         {
           projects.map(( project, index ) => (

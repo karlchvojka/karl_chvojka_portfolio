@@ -2,10 +2,22 @@
 import media from 'globalConfig/mobile'
 import styled from 'styled-components'
 
+// Variable Imports
+import { defaultColors } from 'globalConfig/colors'
+
 const StyledSkills = styled.section`
   padding: 20px;
   /* MOBILE FIRST DEFAULT STYLES */
     margin:0 auto;
+
+    h2 {
+      color: ${defaultColors.orange};
+      margin: 0;
+    }
+
+    .titleWrap {
+      margin-bottom: 20px;
+    }
     
   /* Min width of 375 */
     ${media.iphoneSe `
