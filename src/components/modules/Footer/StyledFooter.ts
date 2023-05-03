@@ -8,15 +8,10 @@ import { defaultColors } from 'globalConfig/colors'
 const StyledFooter = styled.footer`
 /* MOBILE FIRST DEFAULT STYLES */
 
-  background-color: ${defaultColors.darkGrey};
+  background-color: #ffffff;
   border-top: 1px solid ${defaultColors.cyberBlue};
-  bottom: 0;
   height: 30px;
-  left: 0;
   padding: 10px 14px;
-  position: fixed;
-  max-width: 100%;
-  min-width: 100%;
 
 
 /* Min width of 375 */
