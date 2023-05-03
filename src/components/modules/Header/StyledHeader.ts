@@ -12,8 +12,12 @@ background-color: #ffffff;
 display: grid;
 grid-template-columns: 35px 130px;
 justify-content: space-between;
+left: 0;
 padding: 10px;
+position: fixed;
+top: 0;
 width: calc(100% - 20px);
+z-index: 5;
 
 img {
   width: 35px;

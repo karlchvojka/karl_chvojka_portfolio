@@ -17,6 +17,7 @@ const StyledHeroImage = styled.section`
   display: flex;
   height: 300px;
   margin: 0 auto;
+  padding-top: 73px;
   width: 100%;
 
   div {
