@@ -7,7 +7,6 @@ import { defaultColors } from 'globalConfig/colors'
 
 const StyledHeader = styled.header`
 /* MOBILE FIRST DEFAULT STYLES */
-
 background-color: #ffffff;
 display: grid;
 grid-template-columns: 35px 130px;
@@ -50,6 +49,10 @@ nav {
       column-gap: 10px;
     }
   `}
+
+  @media print {
+    display:none;
+  }
 `
 
 export default StyledHeader

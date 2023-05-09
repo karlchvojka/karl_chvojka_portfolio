@@ -39,6 +39,6 @@ const config: Config = {
     '^.+\\.(js|jsx)$': 'babel-jest'
   },
   verbose: true
-};
+}
 
-module.exports = config;
+module.exports = config

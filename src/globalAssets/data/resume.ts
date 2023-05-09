@@ -179,7 +179,7 @@ const resume = {
           'Enterprise Level Company'
         ],
         position: 'SR. FRONT END DEVELOPER'
-      },
+      }
     ]
   }
 }

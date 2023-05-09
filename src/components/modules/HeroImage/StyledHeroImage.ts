@@ -7,7 +7,6 @@ import karlSlider from './assets/karlSlider.jpg'
 
 const StyledHeroImage = styled.section`
   /* MOBILE FIRST DEFAULT STYLES */
-
   background-image: url(${karlSlider});
   background-position: left;
   background-repeat: no-repeat;
@@ -30,6 +29,7 @@ const StyledHeroImage = styled.section`
       display: block;
       text-transform: uppercase;
     }
+
     p {
       color: #fff;
     }

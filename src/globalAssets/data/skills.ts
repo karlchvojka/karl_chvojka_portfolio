@@ -124,9 +124,9 @@ const skills = [
       {
         title: 'Restful Apis',
         perc: '70%',
-      },
+      }
     ]
-  },
+  }
 ]
 
 export default skills

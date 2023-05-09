@@ -7,12 +7,10 @@ import { defaultColors } from 'globalConfig/colors'
 
 const StyledFooter = styled.footer`
 /* MOBILE FIRST DEFAULT STYLES */
-
   background-color: #ffffff;
   border-top: 1px solid ${defaultColors.cyberBlue};
   height: 30px;
   padding: 10px 14px;
-
 
 /* Min width of 375 */
   ${media.iphoneSe `

@@ -18,8 +18,6 @@ const StyledApp = styled.section`
     grid-area: footer;
   }
 
-
-
 /* Min width of 375 */
   ${media.iphoneSe `
     

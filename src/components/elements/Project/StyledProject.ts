@@ -26,8 +26,8 @@ const StyledProject= styled.section<StyledProjectProps>`
     box-shadow: 0px -1px 6px 2px #00B4EB;
 
     img {
-      width: 100%;
       border-radius: 5px;
+      width: 100%;
     }
   }
 
