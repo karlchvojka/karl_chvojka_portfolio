@@ -3,17 +3,15 @@ Karl Chvojka Portfolio Website:
 A basic SPA to display projects and websites and etc.
 
 ## Requirements
----
 
-This template is currently only tested with the following versions:
+This ReactJS App is currently only tested with the following versions:
 
 - Node v19.8.1+  
 - Npm v9.6.2+
 
 ## Packages installed and configured
----
 
-As this is a template, only the basics are installed:
+This project has the following libraries installed:
 
 - ReactJS v18.2.0
 - Webpack v5.76.3
@@ -24,9 +22,7 @@ As this is a template, only the basics are installed:
 - React-Testing-Library: v14.0.0
 - Typescript: v5.0.2
 
-## Getting started
----
-Fork repo into a directory, and cd into it.
+To see more, see the package.json file.
 
 ### Installing:
 ```
@@ -46,8 +42,6 @@ npm run build
 ```
 
 ## Maintenence:
----
-
 To check for updates in npm use npm-check-updates [Install Instructions](https://flaviocopes.com/update-npm-dependencies/)
 
 Run npm-check-updates
@@ -58,7 +52,7 @@ ncu -u
 Follow directions.
 
 ## Running Tests:
----
+Testing is done with Jest, and the React Testing Library
 ```
 npm test
 ```

@@ -27,6 +27,7 @@ const StyledHome = styled.section`
 
 /* Min width of 576 */
   ${media.landscapePhones `
+
   `}
 
 /* Min width of 768 */
@@ -36,6 +37,7 @@ const StyledHome = styled.section`
 
 /* Min width of 1024 */
   ${media.desktop `
+  
   `}
 
 /* Min width of 1200 */

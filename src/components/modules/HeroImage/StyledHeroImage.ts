@@ -7,7 +7,6 @@ import karlSlider from './assets/karlSlider.jpg'
 
 const StyledHeroImage = styled.section`
   /* MOBILE FIRST DEFAULT STYLES */
-
   background-image: url(${karlSlider});
   background-position: left;
   background-repeat: no-repeat;
@@ -17,6 +16,7 @@ const StyledHeroImage = styled.section`
   display: flex;
   height: 300px;
   margin: 0 auto;
+  padding-top: 73px;
   width: 100%;
 
   div {
@@ -29,6 +29,7 @@ const StyledHeroImage = styled.section`
       display: block;
       text-transform: uppercase;
     }
+
     p {
       color: #fff;
     }
