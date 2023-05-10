@@ -5,7 +5,6 @@ import media from 'globalConfig/mobile'
 const StyledApp = styled.section`
 /* MOBILE FIRST DEFAULT STYLES */
   max-width: 100%;
-  padding-bottom: 50px;
 
   #sidebarWrap {
     grid-area: sidebar;
@@ -18,8 +17,6 @@ const StyledApp = styled.section`
   footer {
     grid-area: footer;
   }
-
-
 
 /* Min width of 375 */
   ${media.iphoneSe `

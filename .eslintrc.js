@@ -11,10 +11,10 @@ module.exports = {
   ],
   parserOptions: {
     ecmaFeatures: {
-      jsx: true,
+      jsx: true
     },
     ecmaVersion: 'latest',
-    sourceType: 'module',
+    sourceType: 'module'
   },
   plugins: [
     'react',
@@ -34,14 +34,13 @@ module.exports = {
     'jsx-a11y/no-static-element-interactions': ['always'],
     'react/function-component-definition': [2, { namedComponents: 'arrow-function' }],
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
-    
   },
   settings: {
     react: {
-      version: 'detect',
+      version: 'detect'
     },
     jest: {
-      version: require('jest/package.json').version,
+      version: require('jest/package.json').version
     },
     'import/resolver': {
       alias: {
@@ -55,8 +54,8 @@ module.exports = {
           ['layouts', './src/components/layouts'],
           ['pages', './src/components/pages']
         ],
-        extensions: ['.ts', '.js', '.jsx', '.json'],
-      },
-    },
-  },
+        extensions: ['.ts', '.js', '.jsx', '.json']
+      }
+    }
+  }
 }

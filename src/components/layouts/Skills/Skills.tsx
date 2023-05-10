@@ -3,6 +3,7 @@ import React from 'react'
 
 // Component Imports
 import AccordionWrap from 'modules/AccordionWrap/AccordionWrap'
+import CornerWrap from 'elements/CornerWrap/CornerWrap'
 
 // CSS Imports
 import StyledSkills from './StyledSkills'
@@ -16,7 +17,9 @@ import skills from 'globalAssets/data/skills'
 const Skills = () => {
   return (
     <StyledSkills>
-      <h2>Skills</h2>
+      <CornerWrap className='titleWrap'>
+        <h2>Skills</h2>
+      </CornerWrap>
      <AccordionWrap data={skills} />
     </StyledSkills>
   )

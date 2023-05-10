@@ -92,7 +92,7 @@ const StyledAccordionItem = styled.section<StyledAccordionItemProps>`
   .accordion_item_content[aria-expanded="false"] {
     max-height: 0px;
     transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
-}
+  }
   
   /* Min width of 576 */
     ${media.landscapePhones `

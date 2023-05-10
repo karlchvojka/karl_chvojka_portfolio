@@ -1,6 +1,9 @@
 // Framework Imports
 import React from 'react'
 
+// Library Imports
+import { AiFillGithub } from "react-icons/ai"
+
 // CSS Imports
 import StyledProject from './StyledProject'
 
@@ -30,7 +33,7 @@ const Project = ({
       <p data-testid='projDesc'>{projDesc}</p>
       <h4>Technology Used:</h4>
       <p data-testid='projTech'>{projTech}</p>
-      <a href={projGit} target='blank'><i className='fa fa-github'></i>View Project</a>
+      <a href={projGit} target='blank'><AiFillGithub /> View Project</a>
     </StyledProject>
   )
 }

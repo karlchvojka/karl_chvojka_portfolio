@@ -7,7 +7,6 @@ import bg from 'globalAssets/images/hexrepeat2.jpg'
 import { defaultColors } from 'globalConfig/colors'
 
 const StyledResume = styled.section`
-
   /** FONT RESET */
   background-color: "#ffffff";
   background-image: none;
@@ -93,24 +92,31 @@ const StyledResume = styled.section`
     h1 {
       font-size: 24px;
     }
+
     h2 {
       font-size: 20px;
     }
+
     h3 {
       font-size: 20px;
     }
+
     h4 {
       font-size: 18px;
     }
+
     h5 {
       font-size: 18px;
     }
+
     h6 {
       font-size: 18px;
     }
+
     p {
       font-size: 14px;
     }
+
     a:link, a:visited {
       font-size: 14px;
     }
@@ -121,25 +127,32 @@ const StyledResume = styled.section`
     h1 {
       font-size: 26px;
     }
+
     h2 {
       font-size: 22px;
     }
+
     h3 {
       font-size: 22px;
     }
+
     h4 {
       font-size: 20px;
     }
+
     h5 {
       font-size: 20px;
     }
+
     h6 {
       font-size: 20px;
     }
+
     p {
       font-size: 16px;
       line-height: 20px;
     }
+
     a:link, a:visited {
       font-size: 16px;
     }
@@ -150,25 +163,32 @@ const StyledResume = styled.section`
     h1 {
       font-size: 35px;
     }
+
     h2 {
       font-size: 32px;
     }
+
     h3 {
       font-size: 30px;
     }
+
     h4 {
       font-size: 28px;
     }
+
     h5 {
       font-size: 26px;
     }
+
     h6 {
       font-size: 24px;
     }
+
     p {
       font-size: 16px;
       line-height: 20px;
     }
+
     a:link, a:visited {
       font-size: 16px;
     }
@@ -180,6 +200,7 @@ const StyledResume = styled.section`
       font-size: 18px;
       line-height:22px;
     }
+
     a:link, a:visited {
       font-size: 18px;
     }
@@ -195,16 +216,14 @@ const StyledResume = styled.section`
     background-color: #ffffff !important;
   }
 
-
-  @page 
-  {
-      
-      size: auto;   /* auto is the initial value */
-      margin-top: 5mm;  /* this affects the margin in the printer settings */
-      margin-bottom: 5mm; 
+  @page {
+    size: auto;   /* auto is the initial value */
+    margin-top: 5mm;  /* this affects the margin in the printer settings */
+    margin-bottom: 5mm; 
   }
 
   min-width: 100%;
+
   h1, h2 {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
@@ -238,7 +257,7 @@ const StyledResume = styled.section`
     display: grid;
     grid-template-columns: 75% 100px;
     justify-content: space-between;
-    padding: 1em;
+    padding: 5.5em 1em 1em 1em;
     
     p {
       color: #ffffff;
@@ -264,6 +283,7 @@ const StyledResume = styled.section`
       width: fit-content;
       padding-top: 7px;
     }
+
     p, a:link { 
       text-transform: uppercase;
     }
@@ -310,6 +330,7 @@ const StyledResume = styled.section`
         font-family: "Roboto Condensed", sans-serif;
         margin-bottom: 0.5rem;
       }
+
       .workplaceHeader {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -328,6 +349,7 @@ const StyledResume = styled.section`
           text-align: right;
         }
       }
+
       p.keywords {
         font-size: 0.8rem;
         font-style: italic;
@@ -376,6 +398,7 @@ const StyledResume = styled.section`
           font-family: "Roboto Condensed", sans-serif;
           margin-bottom: 0px;
         }
+
         p {
           font-family: "Roboto Condensed", sans-serif;
           font-weight: 700;
@@ -392,14 +415,21 @@ const StyledResume = styled.section`
     `}
 
   @media print {
-    #Header, #Footer { display: none !important; }
+    #Header, #Footer, header, .header { 
+      display: none !important; 
+    }
     .contacts, .profile, .workExp, .skills, .education {
       padding: 0px 0px 20px 0px;
     }
+
     .controls {
       display:none;
     }
-}
+  }
+
+  #Header, #Footer, header, .header { 
+    display: none !important; 
+  }
 `
 
 export default StyledResume
