@@ -8,7 +8,6 @@ import { defaultColors } from 'globalConfig/colors'
 const StyledSidebarLayout = styled.section`
 /* MOBILE FIRST DEFAULT STYLES */
   
-
   #sidebarWrap {
     grid-area: sidebar;
   }
@@ -26,7 +25,6 @@ const StyledSidebarLayout = styled.section`
   "sidebar content content content";
   max-width: 100%;
   padding: 20px 24px;
-
 
 /* Min width of 375 */
   ${media.iphoneSe `
