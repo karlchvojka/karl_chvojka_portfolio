@@ -42,6 +42,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - StyledProjects.tsx
     - Code cleanup
 
+- Projects Component
+  - Projects.tsx
+    - Cleaned up code styling
+  - StyledProjects.ts
+    - Cleaned up code styling
+
 ## [0.1.4] - 2023-09-18
 ### Added
 ### Changed
