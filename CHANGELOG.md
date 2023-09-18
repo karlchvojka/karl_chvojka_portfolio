@@ -9,6 +9,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.1.5] - 2023-09-18
 ### Added
 ### Changed
+
+#### Overall Changes:
+- Checked over all components
+  - All components meet basic standards.
+    - All tested
+    - All documented
+    - Test coverage @ 100% and passing.
+    
+#### Component Specific Changes:
 - Accordion Item:
   - AccordionItem.tsx
     - Updated component Docs
