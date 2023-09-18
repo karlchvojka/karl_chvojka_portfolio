@@ -25,11 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - Cleaned up code styling
 
 - ColumnLayout:
-  - ColumnLayout.tsx
-    - Cleaned up code styling
-  - ColumnLayout.test.tsx
-    - Added main fuction docs.
-    - Cleaned up code styling
+  - Unused. Removed
 
 - Project:
   - Project.tsx
@@ -42,11 +38,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - StyledProjects.tsx
     - Code cleanup
 
-- Projects Component
+- Projects:
   - Projects.tsx
     - Cleaned up code styling
   - StyledProjects.ts
     - Cleaned up code styling
+
+- Sidebar Layout
+  - Unused. Removed.
 
 ## [0.1.4] - 2023-09-18
 ### Added
