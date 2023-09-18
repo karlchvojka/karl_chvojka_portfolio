@@ -13,6 +13,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Removed outdated projects
   - Some quick text edits
 
+- Header
+  - Added Github Icon link to Github profile
+
 ## [0.1.5] - 2023-09-18
 ### Added
 ### Changed
