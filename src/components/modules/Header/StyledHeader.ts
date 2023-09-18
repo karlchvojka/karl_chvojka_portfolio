@@ -9,7 +9,7 @@ const StyledHeader = styled.header`
 /* MOBILE FIRST DEFAULT STYLES */
 background-color: #ffffff;
 display: grid;
-grid-template-columns: 35px 130px;
+grid-template-columns: 35px 170px;
 justify-content: space-between;
 left: 0;
 padding: 10px;
@@ -24,9 +24,10 @@ img {
 
 nav {
   align-items: center;
+  column-gap: 10px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: 130px;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 170px;
 
   a:link, a:visited {
     color: ${defaultColors.darkGrey};
@@ -42,12 +43,6 @@ nav {
 
 /* Min width of 768 */
   ${media.tablet `
-    grid-template-columns: 35px 150px;
-
-    nav {
-      column-gap: 10px;
-      grid-template-columns: 42% 58%;
-    }
   `}
 
   @media print {

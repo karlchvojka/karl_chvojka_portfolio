@@ -2,6 +2,7 @@
 import React from 'react'
 
 // Library Imports
+import { AiFillGithub } from "react-icons/ai"
 import { Link } from 'react-router-dom'
 
 // Asset Imports
@@ -20,6 +21,7 @@ const Header = () => {
       <nav>
         <Link to='/'>Home</Link>
         <Link to='resume'>Resume</Link>
+        <Link to='https://github.com/karlchvojka/'><AiFillGithub /></Link>
       </nav>
     </StyledHeader>
   )
