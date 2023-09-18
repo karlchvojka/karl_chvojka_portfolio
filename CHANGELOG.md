@@ -6,6 +6,36 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.4] - 2023-09-18
+### Added
+### Changed
+  - Updated audit issue packages
+    - Tests all pass
+    - Test coverage @ 100%
+  - package.json
+    - Updated version number
+
+### Checklists:
+#### New Project List:
+- [D] Dev and Production branches exist
+- [D] Readme is filled out with starting info
+- [D] Script Documentation is in place
+- [D] Changelog exists
+  - [D] Setup is documented
+
+#### Maintenance Checklist:
+- [D] New Project Checklist is complete
+- [D] New Project Checklist is in the Changlog
+- [D] Frameworks/Libraries Upgraded to current version
+- [D] Readme is updated with version numbers (if applicable)
+- [D] Each Component is:
+  - Documented properly
+  - Fully tested (unit/e2e if applicable)
+  - Changes are documented in changelog
+  - Tests are written
+  - Test coverage is @100%
+
+
 ## [0.1.3] - 2023-05-09
 
 ### Added
