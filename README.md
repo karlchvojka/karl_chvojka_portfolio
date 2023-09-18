@@ -1,5 +1,5 @@
 # Portfolio
-## Current Version: 0.1.4
+## Current Version: 1.0.0
 
 Karl Chvojka Portfolio Website:
 A basic SPA to display projects and websites and etc.
