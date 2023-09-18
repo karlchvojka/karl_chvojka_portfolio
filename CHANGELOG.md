@@ -24,16 +24,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
       - Added definitions for props
     - Cleaned up code styling
 
+- ColumnLayout:
+  - ColumnLayout.tsx
+    - Cleaned up code styling
+  - ColumnLayout.test.tsx
+    - Added main fuction docs.
+    - Cleaned up code styling
+
 - Project:
   - Project.tsx
     - Updated component Docs
       - Added definitions for props
     - Cleaned up code styling
-
   - Project.test.tsx
     - Removed unneded imports
     - Added test component docs
-  
   - StyledProjects.tsx
     - Code cleanup
 

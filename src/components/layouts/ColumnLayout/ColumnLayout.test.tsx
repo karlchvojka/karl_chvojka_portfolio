@@ -9,6 +9,9 @@ import { render, screen } from '@testing-library/react'
 // Component Imports
 import ColumnLayout from './ColumnLayout'
 
+/**
+ * Column Layout Component Testing
+ */
 describe('(Component) Column Layout', () => {
   it('Renders the Column Layout component with the string as a header', () => {
     // Mount the component

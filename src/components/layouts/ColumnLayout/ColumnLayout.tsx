@@ -10,8 +10,7 @@ interface ColumnLayoutProps {
 }
 
 /**
- * This the ColumnLayout component.
- * 
+ * ColumnLayout component.
  * Its purpose is just to give an example of a single column layout.
  * @param headlineText - Text to display inside H1
  */
@@ -19,7 +18,7 @@ const ColumnLayout = ({ headlineText }: ColumnLayoutProps) => {
   return (
     <StyledColumnLayout>
       <section id='contentWrap'>
-        <h1 data-testid='columnLayoutHeadline'>{headlineText}</h1>
+        <h1 data-testid='columnLayoutHeadline'>{ headlineText }</h1>
         <h2>Font Examples:</h2>
         <h1>Heading 1</h1>
         <h2>Heading 2</h2>
