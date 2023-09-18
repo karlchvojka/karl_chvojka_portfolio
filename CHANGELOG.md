@@ -48,7 +48,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Home 
   - Home.tsx
     - Cleaned up code styling
-    
+
 - Project:
   - Project.tsx
     - Updated component Docs
@@ -64,6 +64,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Projects.tsx
     - Cleaned up code styling
   - StyledProjects.ts
+    - Cleaned up code styling
+
+- Resume:
+  - Resume.tsx
+    - Cleaned up code styling
+  - StyledResume.md
     - Cleaned up code styling
 
 - Sidebar Layout

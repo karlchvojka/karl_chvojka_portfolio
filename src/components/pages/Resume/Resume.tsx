@@ -10,7 +10,7 @@ import resume from 'globalAssets/data/resume'
 import skills from 'globalAssets/data/skills'
 
 /**
- * This the Resume component.
+ * Resume component.
  */
 const Resume = () => {
   return (
@@ -38,14 +38,14 @@ const Resume = () => {
         <h2>Work Experience</h2>
         {
           resume.workExperience.placements.map(( place, index) => (
-            <section className='workplace' key={place.company+index}>
-              <h3>{place.company}</h3>
+            <section className='workplace' key={ place.company+index }>
+              <h3>{ place.company }</h3>
               <section className='workplaceHeader'>
-                <h4>{place.position}</h4>
-                <p>{place.dates}</p>
+                <h4>{ place.position }</h4>
+                <p>{ place.dates }</p>
               </section>
-              <p className='keywords'><span>Noteable Keywords:</span> { place.keywords.map((keyword, index) => (<span key={keyword+index}>{keyword}, </span>)) }</p>
-              <p>{place.desc}</p>
+              <p className='keywords'><span>Noteable Keywords:</span> { place.keywords.map((keyword, index) => (<span key={ keyword+index }>{ keyword }, </span>)) }</p>
+              <p>{ place.desc }</p>
             </section>
           ))
         }
@@ -56,10 +56,10 @@ const Resume = () => {
         <section className='skillsWrap'>
           {
             skills.map((section, index) => (
-              <section className={section.title.replace(/\s/g, '')} key={section.key+index}>
-                <h3>{section.title}</h3>
+              <section className={ section.title.replace(/\s/g, '') } key={ section.key+index }>
+                <h3>{ section.title }</h3>
                 <p>
-                  { section.skillList.map((skill, index) => (<span key={skill.title+index}>{skill.title + ', '}</span>)) }
+                  { section.skillList.map((skill, index) => (<span key={ skill.title+index }>{ skill.title + ', ' }</span>)) }
                 </p>
               </section>
             ))
@@ -72,13 +72,13 @@ const Resume = () => {
         {
           education.map((school, index) => (
             <section className='edItem' key={school.location+index}>
-              <h3>{school.location}</h3>
+              <h3>{ school.location }</h3>
               <section className='edHeader'>
-                <h4>{school.program}</h4>
-                <p>{school.dates}</p>
+                <h4>{ school.program }</h4>
+                <p>{ school.dates }</p>
               </section>
-              <p>{school.desc}</p>
-              <p>{school.topics}</p>
+              <p>{ school.desc }</p>
+              <p>{ school.topics }</p>
             </section>
           ))
         }  
