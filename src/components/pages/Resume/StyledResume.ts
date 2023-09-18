@@ -26,10 +26,10 @@ const StyledResume = styled.section`
     color: ${defaultColors.cyberBlue};
     font-family: 'MontserratBold', sans-serif;
     font-size:18px;
+    line-height: 1;
     margin-bottom: 20px;
     margin-top: 20px;
     text-transform: uppercase;
-    line-height: 1;
   }
 
   h3 {
@@ -37,9 +37,9 @@ const StyledResume = styled.section`
     font-family: 'MontserratBold', sans-serif;
     font-size:16px;
     font-weight: bold;
+    line-height: 1;
     margin-bottom: 20px;
     text-transform: uppercase;
-    line-height: 1;
   }
 
   h4 {
@@ -47,25 +47,25 @@ const StyledResume = styled.section`
     font-family: 'Montserrat', sans-serif;
     font-size:15px;
     font-weight: 700;
+    line-height: 1;
     margin-bottom:20px;
     text-transform: uppercase;
-    line-height: 1;
   }
 
   h5 {
     color: ${defaultColors.cyberBlue};
     font-family: 'Montserrat', sans-serif;
     font-size:15px;
-    text-transform: uppercase;
     line-height: 1;
+    text-transform: uppercase;
   }
 
   h6 {
     color: ${defaultColors.cyberBlue};
     font-family: 'Montserrat', sans-serif;
     font-size:15px;
-    text-transform: uppercase;
     line-height: 1;
+    text-transform: uppercase;
   }
 
   p {
@@ -217,9 +217,9 @@ const StyledResume = styled.section`
   }
 
   @page {
-    size: auto;   /* auto is the initial value */
     margin-top: 5mm;  /* this affects the margin in the printer settings */
     margin-bottom: 5mm; 
+    size: auto;   /* auto is the initial value */
   }
 
   min-width: 100%;
@@ -275,13 +275,13 @@ const StyledResume = styled.section`
     position: relative;
 
     h2 {
+      border-bottom: 1px solid ${defaultColors.cyberBlue};
+      border-top: 1px solid ${defaultColors.cyberBlue};
       color: #000000;
       margin: 5px 0px;
       padding-bottom: 5px;
-      border-bottom: 1px solid ${defaultColors.cyberBlue};
-      border-top: 1px solid ${defaultColors.cyberBlue};
-      width: fit-content;
       padding-top: 7px;
+      width: fit-content;
     }
 
     p, a:link { 
@@ -304,14 +304,14 @@ const StyledResume = styled.section`
     position: relative;
   }
 
-  .contacts::before {    
-    content: "";
-    background-image: url(${bg});
-    position: absolute;
-    top: 0px;
-    right: 0px;
+  .contacts::before {
+    background-image: url(${bg});    
     bottom: 0px;
+    content: "";
     left: 0px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
     opacity: 0.5;
   }
 

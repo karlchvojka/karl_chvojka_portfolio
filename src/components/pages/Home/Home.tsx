@@ -11,7 +11,7 @@ import Skills from 'layouts/Skills/Skills'
 import StyledHome from './StyledHome'
 
 /**
- * This the Home Page.
+ * Home Page.
  */
 const Home = () => {
   return (

@@ -6,6 +6,90 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.5] - 2023-09-18
+### Added
+### Changed
+
+#### Overall Changes:
+- Checked over all components
+  - All components meet basic standards.
+    - All tested
+    - All documented
+    - Test coverage @ 100% and passing.
+    
+#### Component Specific Changes:
+- Accordion Item:
+  - AccordionItem.tsx
+    - Updated component Docs
+      - Added definitions for props
+    - Cleaned up code styling
+  - AccordionItem.test.tsx
+    - Added function details
+    - Matched to function standards
+
+- AccordionWrap
+  - AccordionWrap.tsx
+    - Cleaned up code styling
+  - AccordionWrap.test.tsx
+    - Added test component docs
+  - StyledAccordionWrap.ts
+    - Cleaned up code styling
+  
+- CornerWrap:
+  - CornerWrap.tsx
+    - Updated component Docs
+      - Added definitions for props
+    - Cleaned up code styling
+
+- ColumnLayout:
+  - Unused. Removed
+
+- Footer
+  - Footer.tsx
+    - Cleaned up code styling
+
+- Header
+  - Header.tsx
+    - Cleaned up code styling
+  - StyledHeader.ts
+    - Cleaned up code styling
+
+- Home 
+  - Home.tsx
+    - Cleaned up code styling
+
+- Project:
+  - Project.tsx
+    - Updated component Docs
+      - Added definitions for props
+    - Cleaned up code styling
+  - Project.test.tsx
+    - Removed unneded imports
+    - Added test component docs
+  - StyledProjects.tsx
+    - Code cleanup
+
+- Projects:
+  - Projects.tsx
+    - Cleaned up code styling
+  - StyledProjects.ts
+    - Cleaned up code styling
+
+- Resume:
+  - Resume.tsx
+    - Cleaned up code styling
+  - StyledResume.md
+    - Cleaned up code styling
+
+- Sidebar Layout
+  - Unused. Removed.
+
+- Skills:
+  - Skills.tsx
+    - Cleaned up code styling
+  - StyledSkills.ts
+    - Cleaned up code styling
+  
 ## [0.1.4] - 2023-09-18
 ### Added
 ### Changed

@@ -11,12 +11,12 @@ import HexaLogo from './assets/hexapixel_logo.jpg'
 import StyledHeader from './StyledHeader'
 
 /**
- * This the Header component.
+ * Header component.
  */
 const Header = () => {
   return (
     <StyledHeader className="header">
-      <img src={HexaLogo} alt='Hexapixel Logo' />
+      <img src={ HexaLogo } alt='Hexapixel Logo' />
       <nav>
         <Link to='/'>Home</Link>
         <Link to='resume'>Resume</Link>

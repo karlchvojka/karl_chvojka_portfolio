@@ -7,6 +7,7 @@ import { defaultColors } from 'globalConfig/colors'
 
 const StyledSkills = styled.section`
   padding: 20px;
+  
   /* MOBILE FIRST DEFAULT STYLES */
     margin:0 auto;
 
