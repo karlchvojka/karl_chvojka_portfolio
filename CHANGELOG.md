@@ -12,7 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Accordion Item:
   - AccordionItem.tsx
     - Updated component Docs
-      - Added definitions for params
+      - Added definitions for props
     - Cleaned up code styling
   - AccordionItem.test.tsx
     - Added function details
@@ -21,8 +21,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - CornerWrap:
   - CornerWrap.tsx
     - Updated component Docs
-      - Added definitions for params
+      - Added definitions for props
     - Cleaned up code styling
+
+- Project:
+  - Project.tsx
+    - Updated component Docs
+      - Added definitions for props
+    - Cleaned up code styling
+
+  - Project.test.tsx
+    - Removed unneded imports
+    - Added test component docs
+  
+  - StyledProjects.tsx
+    - Code cleanup
 
 ## [0.1.4] - 2023-09-18
 ### Added

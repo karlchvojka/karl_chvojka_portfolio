@@ -1,7 +1,7 @@
 // Library Imports
 import '@testing-library/jest-dom/'
 import { describe, expect } from '@jest/globals'
-import { render, screen, fireEvent, act } from '@testing-library/react'
+import { render, screen } from '@testing-library/react'
 
 // Component Imports
 import Project from './Project'
@@ -15,7 +15,10 @@ const testProjects = {
   projTitle: 'Cool Website'
 }
 
-// Mount A Project Component and test Component Initial Render
+/**
+ * Project Testing
+ * Mount A Project Component and test Component Initial Render
+ */
 describe('(Component) Project ', () => {
 
   // Mount project component
