@@ -7,9 +7,9 @@ import { defaultColors } from 'globalConfig/colors'
 
 const StyledProjects = styled.section`
   /* MOBILE FIRST DEFAULT STYLES */
-
-  padding: 20px;
+  
   margin:0 auto;
+  padding: 20px;
 
   h2 {
     color: ${defaultColors.orange};

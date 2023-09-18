@@ -19,12 +19,12 @@ const StyledProject= styled.section<StyledProjectProps>`
     background-repeat: no-repeat;
     border: 1px solid ${defaultColors.cyberBlue};
     border-radius: 5px;
-    margin-bottom: 20px;
-    overflow:hidden;
-    height: 230px;
     -webkit-box-shadow: 0px -1px 6px 2px #00B4EB; 
     box-shadow: 0px -1px 6px 2px #00B4EB;
-
+    height: 230px;
+    margin-bottom: 20px;
+    overflow:hidden;
+    
     img {
       border-radius: 5px;
       width: 100%;

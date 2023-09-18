@@ -12,24 +12,24 @@ import StyledProjects from './StyledProjects'
 import projects from 'globalAssets/data/projects'
 
 /**
- * This the Projects component.
+ * Projects component
  */
 const Projects = () => {
   return (
     <StyledProjects>
       <CornerWrap className="titleWrap">
-        <h2>projects</h2>
+        <h2>Projects</h2>
       </CornerWrap>
       <section className='projectsWrap'>
         {
           projects.map(( project, index ) => (
-            <CornerWrap className='projIndv' key={project.title+index}>
-              <Project 
-                projTitle={project.title}
-                projImg={project.image}
-                projDesc={project.desc}
-                projTech={project.tech}
-                projGit={project.git}
+            <CornerWrap className='projIndv' key={ project.title+index }>
+              <Project
+                projDesc={ project.desc }
+                projGit={ project.git }
+                projImg={ project.image }
+                projTech={ project.tech }
+                projTitle={ project.title }
               />
             </CornerWrap>
           ))

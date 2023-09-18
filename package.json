@@ -1,6 +1,6 @@
 {
   "name": "karl_chvojkas_portfolio",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Karl Chvojka's ReactJS Developer Portfolio",
   "main": "index.js",
   "scripts": {

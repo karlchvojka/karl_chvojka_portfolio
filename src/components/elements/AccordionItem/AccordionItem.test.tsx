@@ -4,7 +4,7 @@ import React from 'react'
 // Library Imports
 import '@testing-library/jest-dom/'
 import { describe, expect } from '@jest/globals'
-import { render, screen, fireEvent, act } from '@testing-library/react'
+import { act, fireEvent, render, screen } from '@testing-library/react'
 
 // Component Imports
 import AccordionItem from './AccordionItem'
@@ -12,11 +12,14 @@ import AccordionItem from './AccordionItem'
 // Test Data Declarations
 const skillList = [
   {
-    title: 'HTML5',
-    perc: '100%'
+    perc: '100%',
+    title: 'HTML5'
   }
 ]
 
+/**
+ * Accordion Item Unit Testing
+ */
 describe('(Component) Accordion Item', () => {
 
   it('Renders the AccordionItemContent area open if isActive is true.', () => {
