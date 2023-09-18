@@ -18,6 +18,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - Added function details
     - Matched to function standards
 
+- CornerWrap:
+  - CornerWrap.tsx
+    - Updated component Docs
+      - Added definitions for params
+    - Cleaned up code styling
+
 ## [0.1.4] - 2023-09-18
 ### Added
 ### Changed
