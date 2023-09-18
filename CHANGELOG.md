@@ -38,6 +38,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Footer
   - Footer.tsx
     - Cleaned up code styling
+
+- Header
+  - Header.tsx
+    - Cleaned up code styling
+  - StyledHeader.ts
+    - Cleaned up code styling
+
 - Project:
   - Project.tsx
     - Updated component Docs

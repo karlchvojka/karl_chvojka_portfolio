@@ -23,9 +23,9 @@ img {
 }
 
 nav {
+  align-items: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
   width: 130px;
 
   a:link, a:visited {
@@ -45,8 +45,8 @@ nav {
     grid-template-columns: 35px 150px;
 
     nav {
-      grid-template-columns: 42% 58%;
       column-gap: 10px;
+      grid-template-columns: 42% 58%;
     }
   `}
 
