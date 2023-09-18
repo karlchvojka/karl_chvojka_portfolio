@@ -6,6 +6,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.5] - 2023-09-18
+### Added
+### Changed
+- Accordion Item:
+  - AccordionItem.tsx
+    - Updated component Docs
+      - Added definitions for params
+    - Cleaned up code styling
+  - AccordionItem.test.tsx
+    - Added function details
+    - Matched to function standards
+
 ## [0.1.4] - 2023-09-18
 ### Added
 ### Changed
