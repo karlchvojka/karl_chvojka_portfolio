@@ -45,6 +45,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - StyledHeader.ts
     - Cleaned up code styling
 
+- Home 
+  - Home.tsx
+    - Cleaned up code styling
+    
 - Project:
   - Project.tsx
     - Updated component Docs
