@@ -32,12 +32,15 @@ const accordionItems = [
   }
 ]
 
-// Mount Accordion Wrap Component and test that key elements are rendered
+/**
+ * AccordionWrap testing
+ * Accordion Wrap Component and test that key elements are rendered
+ */
 describe('(Component) Accordion Wrap', () => {
 
   it('Renders an accordion with two items. The first one open, the other one closed', async () => {
     const { container } = render(
-      <AccordionWrap  data={accordionItems} />
+      <AccordionWrap  data={ accordionItems } />
     ) 
   
     // Variable Declarations

@@ -18,6 +18,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - Added function details
     - Matched to function standards
 
+- AccordionWrap
+  - AccordionWrap.tsx
+    - Cleaned up code styling
+  - AccordionWrap.test.tsx
+    - Added test component docs
+  - StyledAccordionWrap.ts
+    - Cleaned up code styling
+  
 - CornerWrap:
   - CornerWrap.tsx
     - Updated component Docs

@@ -23,7 +23,7 @@ interface AccordionWrapProps {
 }
 
 /**
- * This the AccordionWrap component.
+ * AccordionWrap component.
  * @param { array } data - Array of objects.
  */
 const AccordionWrap = ({ data }: AccordionWrapProps) => {
@@ -31,11 +31,11 @@ const AccordionWrap = ({ data }: AccordionWrapProps) => {
     <StyledAccordionWrap data-testid='accordionWrap'>
       { 
         data.map(( section, index ) => (
-          <CornerWrap className={'skillsSection'} key={section.key}>
+          <CornerWrap className={ 'skillsSection' } key={ section.key }>
             <AccordionItem 
-              def={section.def}
-              skillList={section.skillList}
-              title={section.title}
+              def={ section.def }
+              skillList={ section.skillList }
+              title={ section.title }
             />
           </CornerWrap>
         ))
