@@ -12,7 +12,7 @@ import StyledSkills from './StyledSkills'
 import skills from 'globalAssets/data/skills'
 
 /**
- * This the Skills component.
+ * Skills component.
  */
 const Skills = () => {
   return (
@@ -20,7 +20,7 @@ const Skills = () => {
       <CornerWrap className='titleWrap'>
         <h2>Skills</h2>
       </CornerWrap>
-     <AccordionWrap data={skills} />
+     <AccordionWrap data={ skills } />
     </StyledSkills>
   )
 }
